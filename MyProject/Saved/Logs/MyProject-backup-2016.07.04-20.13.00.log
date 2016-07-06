@@ -1,0 +1,1523 @@
+﻿Log file open, 07/04/16 19:45:17
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(614613575) SRandInit(614613576).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.063774
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.04-09.45.17:451][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-09.45.17:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.04-09.45.17:458][  0]LogInit: Computer: PC
+[2016.07.04-09.45.17:458][  0]LogInit: User: User
+[2016.07.04-09.45.17:458][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.04-09.45.17:458][  0]LogInit: High frequency timer resolution =3.897229 MHz
+[2016.07.04-09.45.17:458][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.07.04-09.45.17:458][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.04-09.45.17:458][  0]LogMemory: Process Physical Memory: 314.47 MB used, 314.47 MB peak
+[2016.07.04-09.45.17:458][  0]LogMemory: Process Virtual Memory: 315.03 MB used, 315.03 MB peak
+[2016.07.04-09.45.17:458][  0]LogMemory: Physical Memory: 6258.67 MB used, 16321.86 MB total
+[2016.07.04-09.45.17:458][  0]LogMemory: Virtual Memory: 653.24 MB used, 134217728.00 MB total
+[2016.07.04-09.45.17:486][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.07.04-09.45.17:790][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.04-09.45.17:808][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.07.04-09.45.17:808][  0]LogD3D11RHI:       4009MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 1 output[s]
+[2016.07.04-09.45.17:809][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.04-09.45.17:809][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 0 output[s]
+[2016.07.04-09.45.17:809][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.04-09.45.17:813][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.04-09.45.17:813][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.07.04-09.45.17:813][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.04-09.45.17:813][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.04-09.45.17:813][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.04-09.45.17:824][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.04-09.45.17:838][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/11316/).
+[2016.07.04-09.45.17:838][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/DFC6F2A54057C9452EE3998EBAA5C3E0/'.
+[2016.07.04-09.45.17:838][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.04-09.45.18:594][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.04-09.45.18:597][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.04-09.45.18:601][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.04-09.45.18:604][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.04-09.45.18:608][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.04-09.45.18:610][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.04-09.45.18:613][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.04-09.45.18:616][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.04-09.45.18:618][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.04-09.45.18:621][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.04-09.45.18:623][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.04-09.45.18:628][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.04-09.45.18:628][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.04-09.45.18:629][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.04-09.45.18:647][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.04-09.45.18:650][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.04-09.45.18:652][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.04-09.45.18:655][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.04-09.45.18:657][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.04-09.45.18:658][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.04-09.45.18:713][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.04-09.45.18:755][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.04-09.45.18:767][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.04-09.45.18:779][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.04-09.45.18:895][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-09.45.18:895][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.04-09.45.18:919][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.04-09.45.19:007][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.04-09.45.19:007][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.04-09.45.19:007][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.04-09.45.19:188][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.04-09.45.19:188][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.07.04-09.45.19:188][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.04-09.45.19:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.04-09.45.19:253][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-09.45.19:253][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-09.45.19:322][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-09.45.19:322][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-09.45.19:322][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-09.45.19:322][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-09.45.19:322][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-09.45.19:322][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-09.45.19:725][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.04-09.45.19:818][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.07.04-09.45.19:923][  0]SourceControl: Info Source control is disabled
+[2016.07.04-09.45.19:923][  0]SourceControl: Info Source control is disabled
+[2016.07.04-09.45.19:928][  0]SourceControl: Info Source control is disabled
+[2016.07.04-09.45.19:934][  0]SourceControl: Info Source control is disabled
+[2016.07.04-09.45.20:023][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.04-09.45.20:076][  0]LogEngine: Initializing Engine...
+[2016.07.04-09.45.20:182][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.04-09.45.20:188][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-09.45.20:206][  0]LogInit: FAudioDevice initialized.
+[2016.07.04-09.45.20:228][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-09.45.20:234][  0]LogInit: Texture streaming: Enabled
+[2016.07.04-09.45.20:248][  0]LogInit: Transaction tracking system initialized
+[2016.07.04-09.45.20:262][  0]BlueprintLog: New page: Editor Load
+[2016.07.04-09.45.20:310][  0]LocalizationService: Info Localization service is disabled
+[2016.07.04-09.45.20:357][  0]LogConsoleResponse:Display: 
+[2016.07.04-09.45.20:433][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.04-09.45.20:433][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.04-09.45.20:433][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.04-09.45.20:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2016.07.04-09.45.20:467][  0]SourceControl: Info Source control is disabled
+[2016.07.04-09.45.20:467][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.04-09.45.20:467][  0]LightingResults: New page: Lighting Build
+[2016.07.04-09.45.20:469][  0]MapCheck: New page: Map Check
+[2016.07.04-09.45.20:469][  0]LightingResults: New page: Lighting Build
+[2016.07.04-09.45.20:804][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-09.45.20:812][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.04-09.45.20:812][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.04-09.45.20:845][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.253ms to complete.
+[2016.07.04-09.45.20:845][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.378
+[2016.07.04-09.45.20:943][  0]LogCollectionManager: Loaded 0 collections in 0.001127 seconds
+[2016.07.04-09.45.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.07.04-09.45.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/Developers/User/Collections/' took 0.01s
+[2016.07.04-09.45.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.07.04-09.45.20:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.07.04-09.45.20:985][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1979 classes and 343 folders.
+[2016.07.04-09.45.20:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.04-09.45.20:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.04-09.45.20:988][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.07.04-09.45.20:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.07.04-09.45.20:995][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.07.04-09.45.21:018][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.07.04-09.45.21:020][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.07.04-09.45.21:036][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.04-09.45.21:040][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.04-09.45.21:064][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.07.04-09.45.21:064][  0]LogLoad: Full Startup: 4.16 seconds (BP compile: 0.06 seconds)
+[2016.07.04-09.45.21:064][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.04-09.45.21:064][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.04-09.45.21:073][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.04-09.45.21:073][  0]LogOcInput: OculusInput pre-init called
+[2016.07.04-09.45.21:089][  0]LogAssetRegistry: Asset discovery search completed in 1.2915 seconds
+[2016.07.04-09.45.21:089][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.04-09.45.21:089][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.07.04-09.45.21:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.04-09.45.21:221][  0]LogRenderer: Reallocating scene render targets to support 1124x632 (Frame:2).
+[2016.07.04-09.45.40:688][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Bed1.fbx)
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: Material, ItemCount : 1
+[2016.07.04-09.45.40:714][ 89]LogFbx: ItemName: Model, ItemCount : 4
+[2016.07.04-09.45.40:721][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Bed1.fbx
+[2016.07.04-09.45.40:730][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.45:971][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Bed1.fbx
+[2016.07.04-09.45.45:977][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.45:980][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert1'
+[2016.07.04-09.45.45:981][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert1'
+[2016.07.04-09.45.45:984][ 89]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.07.04-09.45.46:001][ 89]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.07.04-09.45.46:045][ 89]LogFbx:Warning: Triangulating static mesh pCube14
+[2016.07.04-09.45.46:049][ 89]LogFbx:Warning: Triangulating static mesh pCube15
+[2016.07.04-09.45.46:065][ 89]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.07.04-09.45.46:243][ 89]LogStaticMesh: Building static mesh Bed1...
+[2016.07.04-09.45.46:247][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.45.46:393][ 89]LogStaticMesh: Built static mesh [0.15s] /Game/Assets/Bed1.Bed1
+[2016.07.04-09.45.46:396][ 89]LogStaticMesh:Warning: Bed1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.46:402][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.46:402][ 89]FBXImport:Warning: Warning Bed1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.46:414][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\SecurityDoor.fbx)
+[2016.07.04-09.45.46:433][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\SecurityDoor.fbx
+[2016.07.04-09.45.46:515][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.46:522][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert2'
+[2016.07.04-09.45.46:523][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert2'
+[2016.07.04-09.45.46:527][ 89]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.07.04-09.45.46:535][ 89]LogFbx:Warning: Triangulating static mesh polySurface87
+[2016.07.04-09.45.50:463][ 89]LogStaticMesh: Building static mesh SecurityDoor...
+[2016.07.04-09.45.50:525][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.45.55:341][ 89]LogStaticMesh: Built static mesh [4.88s] /Game/Assets/SecurityDoor.SecurityDoor
+[2016.07.04-09.45.55:394][ 89]LogStaticMesh:Warning: SecurityDoor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.55:418][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.55:418][ 89]FBXImport:Warning: Warning SecurityDoor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.55:490][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Table.fbx)
+[2016.07.04-09.45.55:506][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Table.fbx
+[2016.07.04-09.45.55:515][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.55:517][ 89]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.07.04-09.45.55:559][ 89]LogFbx:Warning: Triangulating static mesh pCylinder4
+[2016.07.04-09.45.55:619][ 89]LogFbx:Warning: Triangulating static mesh pCylinder5
+[2016.07.04-09.45.55:680][ 89]LogFbx:Warning: Triangulating static mesh pCylinder6
+[2016.07.04-09.45.55:742][ 89]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2016.07.04-09.45.55:804][ 89]LogFbx:Warning: Triangulating static mesh pTorus1
+[2016.07.04-09.45.55:866][ 89]LogFbx:Warning: Triangulating static mesh pTorus2
+[2016.07.04-09.45.55:926][ 89]LogFbx:Warning: Triangulating static mesh pTorus3
+[2016.07.04-09.45.55:989][ 89]LogStaticMesh: Building static mesh Table...
+[2016.07.04-09.45.56:076][ 89]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Table.Table
+[2016.07.04-09.45.56:084][ 89]LogStaticMesh:Warning: Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.56:090][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.56:090][ 89]FBXImport:Warning: Warning Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.56:101][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\ChairBasic.fbx)
+[2016.07.04-09.45.56:111][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\ChairBasic.fbx
+[2016.07.04-09.45.56:118][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.56:120][ 89]LogFbx:Warning: Triangulating static mesh pCylinder10
+[2016.07.04-09.45.56:218][ 89]LogStaticMesh: Building static mesh ChairBasic...
+[2016.07.04-09.45.56:236][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/ChairBasic.ChairBasic
+[2016.07.04-09.45.56:237][ 89]LogStaticMesh:Warning: ChairBasic has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.56:242][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.56:242][ 89]FBXImport:Warning: Warning ChairBasic has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.56:242][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.45.56:246][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Computer1.fbx)
+[2016.07.04-09.45.56:259][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Computer1.fbx
+[2016.07.04-09.45.56:276][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.56:279][ 89]LogFbx:Warning: Triangulating static mesh polySurface1
+[2016.07.04-09.45.56:404][ 89]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.07.04-09.45.56:528][ 89]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.07.04-09.45.56:651][ 89]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.07.04-09.45.56:668][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.45.56:717][ 89]LogFbx:Warning: Triangulating static mesh polySurface6
+[2016.07.04-09.45.56:730][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.45.56:743][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.45.56:758][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.45.56:773][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.45.56:788][ 89]LogFbx:Warning: Triangulating static mesh polySurface11
+[2016.07.04-09.45.56:803][ 89]LogFbx:Warning: Triangulating static mesh polySurface12
+[2016.07.04-09.45.56:818][ 89]LogFbx:Warning: Triangulating static mesh polySurface13
+[2016.07.04-09.45.56:833][ 89]LogFbx:Warning: Triangulating static mesh polySurface14
+[2016.07.04-09.45.56:848][ 89]LogFbx:Warning: Triangulating static mesh polySurface15
+[2016.07.04-09.45.56:863][ 89]LogFbx:Warning: Triangulating static mesh polySurface16
+[2016.07.04-09.45.56:878][ 89]LogFbx:Warning: Triangulating static mesh polySurface17
+[2016.07.04-09.45.56:932][ 89]LogStaticMesh: Building static mesh Computer1...
+[2016.07.04-09.45.56:940][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.45.57:139][ 89]LogStaticMesh: Built static mesh [0.21s] /Game/Assets/Computer1.Computer1
+[2016.07.04-09.45.57:153][ 89]LogStaticMesh:Warning: Computer1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.57:161][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.57:161][ 89]FBXImport:Warning: Warning Computer1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.57:176][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\LargeOxygen.fbx)
+[2016.07.04-09.45.57:188][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\LargeOxygen.fbx
+[2016.07.04-09.45.57:195][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.57:197][ 89]LogFbx:Warning: Triangulating static mesh pCylinder10
+[2016.07.04-09.45.57:420][ 89]LogStaticMesh: Building static mesh LargeOxygen...
+[2016.07.04-09.45.57:452][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LargeOxygen.LargeOxygen
+[2016.07.04-09.45.57:458][ 89]LogStaticMesh:Warning: LargeOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.57:462][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.57:462][ 89]FBXImport:Warning: Warning LargeOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.57:469][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\MediumOxygen.fbx)
+[2016.07.04-09.45.57:480][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\MediumOxygen.fbx
+[2016.07.04-09.45.57:487][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.57:488][ 89]LogFbx:Warning: Triangulating static mesh pCylinder9
+[2016.07.04-09.45.57:727][ 89]LogStaticMesh: Building static mesh MediumOxygen...
+[2016.07.04-09.45.57:762][ 89]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/MediumOxygen.MediumOxygen
+[2016.07.04-09.45.57:767][ 89]LogStaticMesh:Warning: MediumOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.57:772][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.57:772][ 89]FBXImport:Warning: Warning MediumOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.57:778][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\SmallOxygen.fbx)
+[2016.07.04-09.45.57:790][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\SmallOxygen.fbx
+[2016.07.04-09.45.57:796][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.57:798][ 89]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.07.04-09.45.57:829][ 89]LogFbx:Warning: Triangulating static mesh pCylinder4
+[2016.07.04-09.45.57:950][ 89]LogFbx:Warning: Triangulating static mesh pCylinder5
+[2016.07.04-09.45.58:011][ 89]LogStaticMesh: Building static mesh SmallOxygen...
+[2016.07.04-09.45.58:042][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/SmallOxygen.SmallOxygen
+[2016.07.04-09.45.58:046][ 89]LogStaticMesh:Warning: SmallOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.58:050][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.58:050][ 89]FBXImport:Warning: Warning SmallOxygen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.58:057][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Lockers2.fbx)
+[2016.07.04-09.45.58:070][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Lockers2.fbx
+[2016.07.04-09.45.58:086][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.58:088][ 89]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.07.04-09.45.58:093][ 89]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.07.04-09.45.58:136][ 89]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2016.07.04-09.45.58:169][ 89]LogFbx:Warning: Triangulating static mesh pCylinder2
+[2016.07.04-09.45.58:203][ 89]LogFbx:Warning: Triangulating static mesh pCube14
+[2016.07.04-09.45.58:204][ 89]LogFbx:Warning: Triangulating static mesh pCube20
+[2016.07.04-09.45.58:209][ 89]LogFbx:Warning: Triangulating static mesh polySurface1
+[2016.07.04-09.45.58:210][ 89]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.07.04-09.45.58:215][ 89]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.07.04-09.45.58:219][ 89]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.07.04-09.45.58:223][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.45.58:226][ 89]LogFbx:Warning: Triangulating static mesh polySurface6
+[2016.07.04-09.45.58:230][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.45.58:235][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.45.58:239][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.45.58:242][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.45.58:254][ 89]LogFbx:Warning: Triangulating static mesh pCylinder5
+[2016.07.04-09.45.58:289][ 89]LogFbx:Warning: Triangulating static mesh pCylinder6
+[2016.07.04-09.45.58:323][ 89]LogFbx:Warning: Triangulating static mesh pCube22
+[2016.07.04-09.45.58:325][ 89]LogFbx:Warning: Triangulating static mesh pCube23
+[2016.07.04-09.45.58:329][ 89]LogFbx:Warning: Triangulating static mesh pCube24
+[2016.07.04-09.45.58:373][ 89]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2016.07.04-09.45.58:409][ 89]LogFbx:Warning: Triangulating static mesh pCylinder8
+[2016.07.04-09.45.58:442][ 89]LogFbx:Warning: Triangulating static mesh pCube25
+[2016.07.04-09.45.58:443][ 89]LogFbx:Warning: Triangulating static mesh pCube28
+[2016.07.04-09.45.58:448][ 89]LogFbx:Warning: Triangulating static mesh pCube29
+[2016.07.04-09.45.58:490][ 89]LogFbx:Warning: Triangulating static mesh pCylinder10
+[2016.07.04-09.45.58:524][ 89]LogFbx:Warning: Triangulating static mesh pCube30
+[2016.07.04-09.45.58:525][ 89]LogFbx:Warning: Triangulating static mesh pCube31
+[2016.07.04-09.45.58:531][ 89]LogStaticMesh: Building static mesh Lockers2...
+[2016.07.04-09.45.58:629][ 89]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Lockers2.Lockers2
+[2016.07.04-09.45.58:635][ 89]LogStaticMesh:Warning: Lockers2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.58:641][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.58:641][ 89]FBXImport:Warning: Warning Lockers2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.58:648][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Lockers1.fbx)
+[2016.07.04-09.45.58:662][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Lockers1.fbx
+[2016.07.04-09.45.58:689][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.58:692][ 89]LogFbx:Warning: Triangulating static mesh polySurface14
+[2016.07.04-09.45.58:696][ 89]LogFbx:Warning: Triangulating static mesh polySurface15
+[2016.07.04-09.45.58:700][ 89]LogFbx:Warning: Triangulating static mesh polySurface16
+[2016.07.04-09.45.58:704][ 89]LogFbx:Warning: Triangulating static mesh polySurface17
+[2016.07.04-09.45.58:717][ 89]LogFbx:Warning: Triangulating static mesh polySurface18
+[2016.07.04-09.45.58:731][ 89]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.07.04-09.45.58:732][ 89]LogFbx:Warning: Triangulating static mesh polySurface20
+[2016.07.04-09.45.58:733][ 89]LogFbx:Warning: Triangulating static mesh polySurface21
+[2016.07.04-09.45.58:736][ 89]LogFbx:Warning: Triangulating static mesh polySurface22
+[2016.07.04-09.45.58:737][ 89]LogFbx:Warning: Triangulating static mesh polySurface23
+[2016.07.04-09.45.58:770][ 89]LogFbx:Warning: Triangulating static mesh polySurface24
+[2016.07.04-09.45.58:804][ 89]LogFbx:Warning: Triangulating static mesh polySurface29
+[2016.07.04-09.45.58:807][ 89]LogFbx:Warning: Triangulating static mesh polySurface30
+[2016.07.04-09.45.58:811][ 89]LogFbx:Warning: Triangulating static mesh polySurface31
+[2016.07.04-09.45.58:815][ 89]LogFbx:Warning: Triangulating static mesh polySurface32
+[2016.07.04-09.45.58:828][ 89]LogFbx:Warning: Triangulating static mesh polySurface33
+[2016.07.04-09.45.58:843][ 89]LogFbx:Warning: Triangulating static mesh polySurface34
+[2016.07.04-09.45.58:845][ 89]LogFbx:Warning: Triangulating static mesh polySurface35
+[2016.07.04-09.45.58:846][ 89]LogFbx:Warning: Triangulating static mesh polySurface36
+[2016.07.04-09.45.58:849][ 89]LogFbx:Warning: Triangulating static mesh polySurface37
+[2016.07.04-09.45.58:850][ 89]LogFbx:Warning: Triangulating static mesh polySurface38
+[2016.07.04-09.45.58:885][ 89]LogFbx:Warning: Triangulating static mesh polySurface39
+[2016.07.04-09.45.58:921][ 89]LogFbx:Warning: Triangulating static mesh polySurface44
+[2016.07.04-09.45.58:924][ 89]LogFbx:Warning: Triangulating static mesh polySurface45
+[2016.07.04-09.45.58:928][ 89]LogFbx:Warning: Triangulating static mesh polySurface46
+[2016.07.04-09.45.58:932][ 89]LogFbx:Warning: Triangulating static mesh polySurface47
+[2016.07.04-09.45.58:945][ 89]LogFbx:Warning: Triangulating static mesh polySurface48
+[2016.07.04-09.45.58:960][ 89]LogFbx:Warning: Triangulating static mesh polySurface49
+[2016.07.04-09.45.58:961][ 89]LogFbx:Warning: Triangulating static mesh polySurface50
+[2016.07.04-09.45.58:962][ 89]LogFbx:Warning: Triangulating static mesh polySurface51
+[2016.07.04-09.45.58:965][ 89]LogFbx:Warning: Triangulating static mesh polySurface52
+[2016.07.04-09.45.58:966][ 89]LogFbx:Warning: Triangulating static mesh polySurface53
+[2016.07.04-09.45.58:999][ 89]LogFbx:Warning: Triangulating static mesh polySurface54
+[2016.07.04-09.45.59:032][ 89]LogFbx:Warning: Triangulating static mesh polySurface59
+[2016.07.04-09.45.59:036][ 89]LogFbx:Warning: Triangulating static mesh polySurface60
+[2016.07.04-09.45.59:039][ 89]LogFbx:Warning: Triangulating static mesh polySurface61
+[2016.07.04-09.45.59:043][ 89]LogFbx:Warning: Triangulating static mesh polySurface62
+[2016.07.04-09.45.59:056][ 89]LogFbx:Warning: Triangulating static mesh polySurface63
+[2016.07.04-09.45.59:071][ 89]LogFbx:Warning: Triangulating static mesh polySurface64
+[2016.07.04-09.45.59:072][ 89]LogFbx:Warning: Triangulating static mesh polySurface65
+[2016.07.04-09.45.59:073][ 89]LogFbx:Warning: Triangulating static mesh polySurface66
+[2016.07.04-09.45.59:076][ 89]LogFbx:Warning: Triangulating static mesh polySurface67
+[2016.07.04-09.45.59:077][ 89]LogFbx:Warning: Triangulating static mesh polySurface68
+[2016.07.04-09.45.59:110][ 89]LogFbx:Warning: Triangulating static mesh polySurface69
+[2016.07.04-09.45.59:143][ 89]LogFbx:Warning: Triangulating static mesh polySurface42
+[2016.07.04-09.45.59:158][ 89]LogFbx:Warning: Triangulating static mesh polySurface26
+[2016.07.04-09.45.59:174][ 89]LogFbx:Warning: Triangulating static mesh polySurface71
+[2016.07.04-09.45.59:190][ 89]LogFbx:Warning: Triangulating static mesh polySurface56
+[2016.07.04-09.45.59:212][ 89]LogStaticMesh: Building static mesh Lockers1...
+[2016.07.04-09.45.59:348][ 89]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/Lockers1.Lockers1
+[2016.07.04-09.45.59:354][ 89]LogStaticMesh:Warning: Lockers1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.59:361][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.59:361][ 89]FBXImport:Warning: Warning Lockers1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.59:369][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Tablet.fbx)
+[2016.07.04-09.45.59:380][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Tablet.fbx
+[2016.07.04-09.45.59:387][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.59:389][ 89]LogFbx:Warning: Triangulating static mesh pCube5
+[2016.07.04-09.45.59:548][ 89]LogStaticMesh: Building static mesh Tablet...
+[2016.07.04-09.45.59:581][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Tablet.Tablet
+[2016.07.04-09.45.59:583][ 89]LogStaticMesh:Warning: Tablet has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.45.59:587][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.45.59:587][ 89]FBXImport:Warning: Warning Tablet has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.45.59:591][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\PhotoFrame.fbx)
+[2016.07.04-09.45.59:604][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\PhotoFrame.fbx
+[2016.07.04-09.45.59:619][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.45.59:621][ 89]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.07.04-09.45.59:628][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.45.59:644][ 89]LogFbx:Warning: Triangulating static mesh polySurface6
+[2016.07.04-09.45.59:756][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.45.59:861][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.45.59:967][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.46.00:022][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.46.00:084][ 89]LogFbx:Warning: Triangulating static mesh polySurface11
+[2016.07.04-09.46.00:096][ 89]LogFbx:Warning: Triangulating static mesh polySurface12
+[2016.07.04-09.46.00:151][ 89]LogFbx:Warning: Triangulating static mesh polySurface13
+[2016.07.04-09.46.00:269][ 89]LogStaticMesh: Building static mesh PhotoFrame...
+[2016.07.04-09.46.00:277][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.00:469][ 89]LogStaticMesh: Built static mesh [0.20s] /Game/Assets/PhotoFrame.PhotoFrame
+[2016.07.04-09.46.00:476][ 89]LogStaticMesh:Warning: PhotoFrame has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.00:481][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.00:482][ 89]FBXImport:Warning: Warning PhotoFrame has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.00:482][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.00:490][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Lamp1.fbx)
+[2016.07.04-09.46.00:502][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Lamp1.fbx
+[2016.07.04-09.46.00:507][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.00:508][ 89]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.07.04-09.46.00:674][ 89]LogStaticMesh: Building static mesh Lamp1...
+[2016.07.04-09.46.00:702][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Lamp1.Lamp1
+[2016.07.04-09.46.00:705][ 89]LogStaticMesh:Warning: Lamp1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.00:709][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.00:709][ 89]FBXImport:Warning: Warning Lamp1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.00:713][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\FireMask.fbx)
+[2016.07.04-09.46.00:724][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\FireMask.fbx
+[2016.07.04-09.46.00:738][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.00:741][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert3'
+[2016.07.04-09.46.00:741][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert3'
+[2016.07.04-09.46.00:744][ 89]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2016.07.04-09.46.00:750][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert8'
+[2016.07.04-09.46.00:750][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert8'
+[2016.07.04-09.46.00:752][ 89]LogMaterial: Missing cached shader map for material lambert8, compiling. 
+[2016.07.04-09.46.00:759][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert7'
+[2016.07.04-09.46.00:759][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert7'
+[2016.07.04-09.46.00:762][ 89]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2016.07.04-09.46.00:771][ 89]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.07.04-09.46.01:704][ 89]LogStaticMesh: Building static mesh FireMask...
+[2016.07.04-09.46.01:964][ 89]LogStaticMesh: Built static mesh [0.26s] /Game/Assets/FireMask.FireMask
+[2016.07.04-09.46.01:983][ 89]LogStaticMesh:Warning: FireMask has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.01:992][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.01:992][ 89]FBXImport:Warning: Warning FireMask has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.02:016][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\FireExtingusher.fbx)
+[2016.07.04-09.46.02:028][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\FireExtingusher.fbx
+[2016.07.04-09.46.02:035][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.02:038][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert4'
+[2016.07.04-09.46.02:038][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert4'
+[2016.07.04-09.46.02:041][ 89]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2016.07.04-09.46.02:049][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert5'
+[2016.07.04-09.46.02:050][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert5'
+[2016.07.04-09.46.02:053][ 89]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2016.07.04-09.46.02:064][ 89]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2016.07.04-09.46.02:082][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert6'
+[2016.07.04-09.46.02:082][ 89]LogLinker:Warning: Can't find file '/Game/Assets/lambert6'
+[2016.07.04-09.46.02:088][ 89]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2016.07.04-09.46.02:098][ 89]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.07.04-09.46.02:119][ 89]LogStaticMesh: Building static mesh FireExtingusher...
+[2016.07.04-09.46.02:132][ 89]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FireExtingusher.FireExtingusher
+[2016.07.04-09.46.02:133][ 89]LogStaticMesh:Warning: FireExtingusher has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.02:137][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.02:137][ 89]FBXImport:Warning: Warning FireExtingusher has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.02:141][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Corridor.fbx)
+[2016.07.04-09.46.02:158][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Corridor.fbx
+[2016.07.04-09.46.02:207][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.02:211][ 89]LogFbx:Warning: Triangulating static mesh polySurface95
+[2016.07.04-09.46.02:242][ 89]LogFbx:Warning: Triangulating static mesh polySurface96
+[2016.07.04-09.46.02:245][ 89]LogFbx:Warning: Triangulating static mesh polySurface97
+[2016.07.04-09.46.02:247][ 89]LogFbx:Warning: Triangulating static mesh polySurface93
+[2016.07.04-09.46.02:251][ 89]LogFbx:Warning: Triangulating static mesh polySurface94
+[2016.07.04-09.46.02:254][ 89]LogFbx:Warning: Triangulating static mesh polySurface15
+[2016.07.04-09.46.02:258][ 89]LogFbx:Warning: Triangulating static mesh polySurface16
+[2016.07.04-09.46.02:264][ 89]LogFbx:Warning: Triangulating static mesh polySurface17
+[2016.07.04-09.46.02:271][ 89]LogFbx:Warning: Triangulating static mesh polySurface18
+[2016.07.04-09.46.02:279][ 89]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.07.04-09.46.02:299][ 89]LogFbx:Warning: Triangulating static mesh polySurface20
+[2016.07.04-09.46.02:319][ 89]LogFbx:Warning: Triangulating static mesh polySurface21
+[2016.07.04-09.46.02:339][ 89]LogFbx:Warning: Triangulating static mesh polySurface22
+[2016.07.04-09.46.02:358][ 89]LogFbx:Warning: Triangulating static mesh polySurface23
+[2016.07.04-09.46.02:376][ 89]LogFbx:Warning: Triangulating static mesh polySurface24
+[2016.07.04-09.46.02:393][ 89]LogFbx:Warning: Triangulating static mesh polySurface25
+[2016.07.04-09.46.02:411][ 89]LogFbx:Warning: Triangulating static mesh polySurface26
+[2016.07.04-09.46.02:430][ 89]LogFbx:Warning: Triangulating static mesh polySurface27
+[2016.07.04-09.46.02:449][ 89]LogFbx:Warning: Triangulating static mesh polySurface28
+[2016.07.04-09.46.02:467][ 89]LogFbx:Warning: Triangulating static mesh polySurface29
+[2016.07.04-09.46.02:487][ 89]LogFbx:Warning: Triangulating static mesh polySurface30
+[2016.07.04-09.46.02:505][ 89]LogFbx:Warning: Triangulating static mesh polySurface31
+[2016.07.04-09.46.02:524][ 89]LogFbx:Warning: Triangulating static mesh polySurface32
+[2016.07.04-09.46.02:542][ 89]LogFbx:Warning: Triangulating static mesh polySurface33
+[2016.07.04-09.46.02:561][ 89]LogFbx:Warning: Triangulating static mesh polySurface34
+[2016.07.04-09.46.02:582][ 89]LogFbx:Warning: Triangulating static mesh polySurface35
+[2016.07.04-09.46.02:601][ 89]LogFbx:Warning: Triangulating static mesh polySurface36
+[2016.07.04-09.46.02:620][ 89]LogFbx:Warning: Triangulating static mesh polySurface37
+[2016.07.04-09.46.02:641][ 89]LogFbx:Warning: Triangulating static mesh polySurface38
+[2016.07.04-09.46.02:661][ 89]LogFbx:Warning: Triangulating static mesh polySurface39
+[2016.07.04-09.46.02:681][ 89]LogFbx:Warning: Triangulating static mesh polySurface40
+[2016.07.04-09.46.02:701][ 89]LogFbx:Warning: Triangulating static mesh polySurface41
+[2016.07.04-09.46.02:720][ 89]LogFbx:Warning: Triangulating static mesh polySurface42
+[2016.07.04-09.46.02:738][ 89]LogFbx:Warning: Triangulating static mesh polySurface44
+[2016.07.04-09.46.02:746][ 89]LogFbx:Warning: Triangulating static mesh polySurface45
+[2016.07.04-09.46.02:765][ 89]LogFbx:Warning: Triangulating static mesh polySurface46
+[2016.07.04-09.46.02:784][ 89]LogFbx:Warning: Triangulating static mesh polySurface47
+[2016.07.04-09.46.02:802][ 89]LogFbx:Warning: Triangulating static mesh polySurface48
+[2016.07.04-09.46.02:820][ 89]LogFbx:Warning: Triangulating static mesh polySurface49
+[2016.07.04-09.46.02:841][ 89]LogFbx:Warning: Triangulating static mesh polySurface50
+[2016.07.04-09.46.02:859][ 89]LogFbx:Warning: Triangulating static mesh polySurface51
+[2016.07.04-09.46.02:878][ 89]LogFbx:Warning: Triangulating static mesh polySurface52
+[2016.07.04-09.46.02:896][ 89]LogFbx:Warning: Triangulating static mesh polySurface101
+[2016.07.04-09.46.02:925][ 89]LogFbx:Warning: Triangulating static mesh polySurface102
+[2016.07.04-09.46.02:928][ 89]LogFbx:Warning: Triangulating static mesh polySurface103
+[2016.07.04-09.46.02:931][ 89]LogFbx:Warning: Triangulating static mesh polySurface99
+[2016.07.04-09.46.02:934][ 89]LogFbx:Warning: Triangulating static mesh polySurface100
+[2016.07.04-09.46.02:936][ 89]LogFbx:Warning: Triangulating static mesh polySurface54
+[2016.07.04-09.46.02:941][ 89]LogFbx:Warning: Triangulating static mesh polySurface56
+[2016.07.04-09.46.02:947][ 89]LogFbx:Warning: Triangulating static mesh polySurface57
+[2016.07.04-09.46.02:955][ 89]LogFbx:Warning: Triangulating static mesh polySurface58
+[2016.07.04-09.46.02:976][ 89]LogFbx:Warning: Triangulating static mesh polySurface59
+[2016.07.04-09.46.02:996][ 89]LogFbx:Warning: Triangulating static mesh polySurface60
+[2016.07.04-09.46.03:016][ 89]LogFbx:Warning: Triangulating static mesh polySurface61
+[2016.07.04-09.46.03:036][ 89]LogFbx:Warning: Triangulating static mesh polySurface62
+[2016.07.04-09.46.03:054][ 89]LogFbx:Warning: Triangulating static mesh polySurface63
+[2016.07.04-09.46.03:073][ 89]LogFbx:Warning: Triangulating static mesh polySurface64
+[2016.07.04-09.46.03:091][ 89]LogFbx:Warning: Triangulating static mesh polySurface65
+[2016.07.04-09.46.03:112][ 89]LogFbx:Warning: Triangulating static mesh polySurface66
+[2016.07.04-09.46.03:131][ 89]LogFbx:Warning: Triangulating static mesh polySurface67
+[2016.07.04-09.46.03:150][ 89]LogFbx:Warning: Triangulating static mesh polySurface68
+[2016.07.04-09.46.03:168][ 89]LogFbx:Warning: Triangulating static mesh polySurface69
+[2016.07.04-09.46.03:186][ 89]LogFbx:Warning: Triangulating static mesh polySurface70
+[2016.07.04-09.46.03:204][ 89]LogFbx:Warning: Triangulating static mesh polySurface71
+[2016.07.04-09.46.03:222][ 89]LogFbx:Warning: Triangulating static mesh polySurface72
+[2016.07.04-09.46.03:240][ 89]LogFbx:Warning: Triangulating static mesh polySurface73
+[2016.07.04-09.46.03:258][ 89]LogFbx:Warning: Triangulating static mesh polySurface74
+[2016.07.04-09.46.03:277][ 89]LogFbx:Warning: Triangulating static mesh polySurface75
+[2016.07.04-09.46.03:296][ 89]LogFbx:Warning: Triangulating static mesh polySurface76
+[2016.07.04-09.46.03:314][ 89]LogFbx:Warning: Triangulating static mesh polySurface77
+[2016.07.04-09.46.03:334][ 89]LogFbx:Warning: Triangulating static mesh polySurface78
+[2016.07.04-09.46.03:352][ 89]LogFbx:Warning: Triangulating static mesh polySurface79
+[2016.07.04-09.46.03:372][ 89]LogFbx:Warning: Triangulating static mesh polySurface80
+[2016.07.04-09.46.03:391][ 89]LogFbx:Warning: Triangulating static mesh polySurface81
+[2016.07.04-09.46.03:410][ 89]LogFbx:Warning: Triangulating static mesh polySurface83
+[2016.07.04-09.46.03:418][ 89]LogFbx:Warning: Triangulating static mesh polySurface84
+[2016.07.04-09.46.03:435][ 89]LogFbx:Warning: Triangulating static mesh polySurface85
+[2016.07.04-09.46.03:454][ 89]LogFbx:Warning: Triangulating static mesh polySurface86
+[2016.07.04-09.46.03:473][ 89]LogFbx:Warning: Triangulating static mesh polySurface87
+[2016.07.04-09.46.03:491][ 89]LogFbx:Warning: Triangulating static mesh polySurface88
+[2016.07.04-09.46.03:511][ 89]LogFbx:Warning: Triangulating static mesh polySurface89
+[2016.07.04-09.46.03:529][ 89]LogFbx:Warning: Triangulating static mesh polySurface90
+[2016.07.04-09.46.03:548][ 89]LogFbx:Warning: Triangulating static mesh polySurface91
+[2016.07.04-09.46.03:582][ 89]LogStaticMesh: Building static mesh Corridor...
+[2016.07.04-09.46.04:148][ 89]LogStaticMesh: Built static mesh [0.57s] /Game/Assets/Corridor.Corridor
+[2016.07.04-09.46.04:186][ 89]LogStaticMesh:Warning: Corridor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.04:197][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.04:197][ 89]FBXImport:Warning: Warning Corridor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.04:239][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\PistolV2.fbx)
+[2016.07.04-09.46.04:251][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\PistolV2.fbx
+[2016.07.04-09.46.04:259][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.04:262][ 89]LogFbx:Warning: Triangulating static mesh pCube19
+[2016.07.04-09.46.04:320][ 89]LogFbx:Warning: Triangulating static mesh pCube20
+[2016.07.04-09.46.04:436][ 89]LogFbx:Warning: Triangulating static mesh pCylinder50
+[2016.07.04-09.46.04:559][ 89]LogStaticMesh: Building static mesh PistolV2...
+[2016.07.04-09.46.04:562][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.04:641][ 89]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/PistolV2.PistolV2
+[2016.07.04-09.46.04:646][ 89]LogStaticMesh:Warning: PistolV2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.04:653][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.04:653][ 89]FBXImport:Warning: Warning PistolV2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.04:661][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Pistol.fbx)
+[2016.07.04-09.46.04:670][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Pistol.fbx
+[2016.07.04-09.46.04:679][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.04:682][ 89]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.07.04-09.46.04:704][ 89]LogFbx:Warning: Triangulating static mesh pCube14
+[2016.07.04-09.46.04:729][ 89]LogFbx:Warning: Triangulating static mesh pCube15
+[2016.07.04-09.46.04:747][ 89]LogFbx:Warning: Triangulating static mesh pCube16
+[2016.07.04-09.46.04:867][ 89]LogFbx:Warning: Triangulating static mesh pCylinder48
+[2016.07.04-09.46.04:881][ 89]LogFbx:Warning: Triangulating static mesh pCube17
+[2016.07.04-09.46.04:894][ 89]LogFbx:Warning: Triangulating static mesh pCylinder51
+[2016.07.04-09.46.04:908][ 89]LogStaticMesh: Building static mesh Pistol...
+[2016.07.04-09.46.04:966][ 89]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Pistol.Pistol
+[2016.07.04-09.46.04:969][ 89]LogStaticMesh:Warning: Pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.04:974][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.04:974][ 89]FBXImport:Warning: Warning Pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.04:974][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.04:980][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\GunRiflt.fbx)
+[2016.07.04-09.46.04:992][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\GunRiflt.fbx
+[2016.07.04-09.46.05:023][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.05:026][ 89]LogFbx:Warning: Triangulating static mesh pCube12
+[2016.07.04-09.46.06:317][ 89]LogStaticMesh: Building static mesh GunRiflt...
+[2016.07.04-09.46.06:343][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.07:027][ 89]LogStaticMesh: Built static mesh [0.71s] /Game/Assets/GunRiflt.GunRiflt
+[2016.07.04-09.46.07:040][ 89]LogStaticMesh:Warning: GunRiflt has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.07:047][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.07:047][ 89]FBXImport:Warning: Warning GunRiflt has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.07:064][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\MagHands2.fbx)
+[2016.07.04-09.46.07:073][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\MagHands2.fbx
+[2016.07.04-09.46.07:102][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.07:105][ 89]LogFbx:Warning: Triangulating static mesh polySurface35
+[2016.07.04-09.46.09:069][ 89]LogStaticMesh: Building static mesh MagHands2...
+[2016.07.04-09.46.10:178][ 89]LogStaticMesh: Built static mesh [1.11s] /Game/Assets/MagHands2.MagHands2
+[2016.07.04-09.46.10:203][ 89]LogStaticMesh:Warning: MagHands2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.10:214][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.10:214][ 89]FBXImport:Warning: Warning MagHands2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.10:214][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.10:244][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\MagHands.fbx)
+[2016.07.04-09.46.10:252][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\MagHands.fbx
+[2016.07.04-09.46.10:285][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.10:288][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.46.10:320][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.46.10:423][ 89]LogFbx:Warning: Triangulating static mesh polySurface11
+[2016.07.04-09.46.10:503][ 89]LogFbx:Warning: Triangulating static mesh polySurface12
+[2016.07.04-09.46.10:573][ 89]LogFbx:Warning: Triangulating static mesh polySurface13
+[2016.07.04-09.46.10:657][ 89]LogFbx:Warning: Triangulating static mesh polySurface14
+[2016.07.04-09.46.10:837][ 89]LogFbx:Warning: Triangulating static mesh polySurface15
+[2016.07.04-09.46.11:107][ 89]LogFbx:Warning: Triangulating static mesh polySurface16
+[2016.07.04-09.46.11:284][ 89]LogFbx:Warning: Triangulating static mesh polySurface17
+[2016.07.04-09.46.11:461][ 89]LogFbx:Warning: Triangulating static mesh polySurface18
+[2016.07.04-09.46.11:642][ 89]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.07.04-09.46.11:680][ 89]LogFbx:Warning: Triangulating static mesh polySurface20
+[2016.07.04-09.46.11:725][ 89]LogFbx:Warning: Triangulating static mesh polySurface21
+[2016.07.04-09.46.11:807][ 89]LogFbx:Warning: Triangulating static mesh polySurface22
+[2016.07.04-09.46.11:845][ 89]LogFbx:Warning: Triangulating static mesh polySurface23
+[2016.07.04-09.46.11:886][ 89]LogFbx:Warning: Triangulating static mesh polySurface24
+[2016.07.04-09.46.11:928][ 89]LogFbx:Warning: Triangulating static mesh polySurface25
+[2016.07.04-09.46.11:965][ 89]LogFbx:Warning: Triangulating static mesh polySurface26
+[2016.07.04-09.46.12:002][ 89]LogFbx:Warning: Triangulating static mesh polySurface27
+[2016.07.04-09.46.12:044][ 89]LogFbx:Warning: Triangulating static mesh polySurface28
+[2016.07.04-09.46.12:060][ 89]LogFbx:Warning: Triangulating static mesh polySurface29
+[2016.07.04-09.46.12:078][ 89]LogFbx:Warning: Triangulating static mesh polySurface30
+[2016.07.04-09.46.12:095][ 89]LogFbx:Warning: Triangulating static mesh polySurface31
+[2016.07.04-09.46.12:112][ 89]LogFbx:Warning: Triangulating static mesh polySurface32
+[2016.07.04-09.46.12:155][ 89]LogFbx:Warning: Triangulating static mesh polySurface33
+[2016.07.04-09.46.12:198][ 89]LogFbx:Warning: Triangulating static mesh polySurface34
+[2016.07.04-09.46.12:292][ 89]LogStaticMesh: Building static mesh MagHands...
+[2016.07.04-09.46.13:443][ 89]LogStaticMesh: Built static mesh [1.15s] /Game/Assets/MagHands.MagHands
+[2016.07.04-09.46.13:465][ 89]LogStaticMesh:Warning: MagHands has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.13:476][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.13:476][ 89]FBXImport:Warning: Warning MagHands has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.13:476][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.13:504][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\TorchFloor.fbx)
+[2016.07.04-09.46.13:516][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\TorchFloor.fbx
+[2016.07.04-09.46.13:537][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.13:540][ 89]LogFbx:Warning: Triangulating static mesh pCube12
+[2016.07.04-09.46.14:487][ 89]LogStaticMesh: Building static mesh TorchFloor...
+[2016.07.04-09.46.14:813][ 89]LogStaticMesh: Built static mesh [0.33s] /Game/Assets/TorchFloor.TorchFloor
+[2016.07.04-09.46.14:828][ 89]LogStaticMesh:Warning: TorchFloor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.14:836][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.14:836][ 89]FBXImport:Warning: Warning TorchFloor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.14:854][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\First person Torch.fbx)
+[2016.07.04-09.46.14:866][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\First person Torch.fbx
+[2016.07.04-09.46.14:876][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.14:878][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.46.14:885][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.46.14:893][ 89]LogFbx:Warning: Triangulating static mesh polySurface12
+[2016.07.04-09.46.14:893][ 89]LogFbx:Warning: Triangulating static mesh polySurface13
+[2016.07.04-09.46.14:893][ 89]LogFbx:Warning: Triangulating static mesh polySurface15
+[2016.07.04-09.46.14:975][ 89]LogFbx:Warning: Triangulating static mesh polySurface17
+[2016.07.04-09.46.14:993][ 89]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.07.04-09.46.14:995][ 89]LogFbx:Warning: Triangulating static mesh polySurface20
+[2016.07.04-09.46.15:150][ 89]LogStaticMesh: Building static mesh First_person_Torch...
+[2016.07.04-09.46.15:235][ 89]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/First_person_Torch.First_person_Torch
+[2016.07.04-09.46.15:238][ 89]LogStaticMesh:Warning: First_person_Torch has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.15:244][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.15:244][ 89]FBXImport:Warning: Warning First_person_Torch has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.15:244][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.15:249][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\bedblanket2.fbx)
+[2016.07.04-09.46.15:258][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\bedblanket2.fbx
+[2016.07.04-09.46.15:263][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.15:265][ 89]LogFbx:Warning: Triangulating static mesh pPlane2
+[2016.07.04-09.46.15:433][ 89]LogStaticMesh: Building static mesh bedblanket2...
+[2016.07.04-09.46.15:455][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/bedblanket2.bedblanket2
+[2016.07.04-09.46.15:464][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.15:470][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\bedblanket.fbx)
+[2016.07.04-09.46.15:481][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\bedblanket.fbx
+[2016.07.04-09.46.15:486][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.15:488][ 89]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.07.04-09.46.15:659][ 89]LogStaticMesh: Building static mesh bedblanket...
+[2016.07.04-09.46.15:679][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/bedblanket.bedblanket
+[2016.07.04-09.46.15:687][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.15:692][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\globe.fbx)
+[2016.07.04-09.46.15:703][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\globe.fbx
+[2016.07.04-09.46.15:709][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.15:711][ 89]LogFbx:Warning: Triangulating static mesh nRigid3
+[2016.07.04-09.46.16:034][ 89]LogStaticMesh: Building static mesh globe...
+[2016.07.04-09.46.16:082][ 89]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/globe.globe
+[2016.07.04-09.46.16:093][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.16:102][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\reactor.fbx)
+[2016.07.04-09.46.16:124][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\reactor.fbx
+[2016.07.04-09.46.16:186][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.16:189][ 89]LogFbx:Warning: Triangulating static mesh pCylinder2
+[2016.07.04-09.46.16:343][ 89]LogFbx:Warning: Triangulating static mesh pTorus1
+[2016.07.04-09.46.16:405][ 89]LogFbx:Warning: Triangulating static mesh pCube1
+[2016.07.04-09.46.16:417][ 89]LogFbx:Warning: Triangulating static mesh pCube2
+[2016.07.04-09.46.16:428][ 89]LogFbx:Warning: Triangulating static mesh pCube3
+[2016.07.04-09.46.16:439][ 89]LogFbx:Warning: Triangulating static mesh pCube4
+[2016.07.04-09.46.16:449][ 89]LogFbx:Warning: Triangulating static mesh pCube5
+[2016.07.04-09.46.16:461][ 89]LogFbx:Warning: Triangulating static mesh pCube6
+[2016.07.04-09.46.16:472][ 89]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.07.04-09.46.16:503][ 89]LogFbx:Warning: Triangulating static mesh pCube7
+[2016.07.04-09.46.16:508][ 89]LogFbx:Warning: Triangulating static mesh pCylinder4
+[2016.07.04-09.46.16:681][ 89]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2016.07.04-09.46.16:820][ 89]LogFbx:Warning: Triangulating static mesh pCylinder12
+[2016.07.04-09.46.16:979][ 89]LogFbx:Warning: Triangulating static mesh pCylinder13
+[2016.07.04-09.46.17:144][ 89]LogFbx:Warning: Triangulating static mesh pCylinder14
+[2016.07.04-09.46.17:304][ 89]LogFbx:Warning: Triangulating static mesh pCylinder18
+[2016.07.04-09.46.17:462][ 89]LogFbx:Warning: Triangulating static mesh pCylinder19
+[2016.07.04-09.46.17:619][ 89]LogFbx:Warning: Triangulating static mesh pTorus3
+[2016.07.04-09.46.17:709][ 89]LogFbx:Warning: Triangulating static mesh pTorus4
+[2016.07.04-09.46.17:803][ 89]LogFbx:Warning: Triangulating static mesh pCube8
+[2016.07.04-09.46.17:818][ 89]LogFbx:Warning: Triangulating static mesh pCylinder21
+[2016.07.04-09.46.17:909][ 89]LogFbx:Warning: Triangulating static mesh pCube10
+[2016.07.04-09.46.18:010][ 89]LogFbx:Warning: Triangulating static mesh pCube11
+[2016.07.04-09.46.18:113][ 89]LogFbx:Warning: Triangulating static mesh polySurface36
+[2016.07.04-09.46.18:224][ 89]LogFbx:Warning: Triangulating static mesh polySurface37
+[2016.07.04-09.46.18:270][ 89]LogFbx:Warning: Triangulating static mesh polySurface38
+[2016.07.04-09.46.18:316][ 89]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.07.04-09.46.18:470][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.46.18:634][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.46.18:794][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.46.18:958][ 89]LogFbx:Warning: Triangulating static mesh polySurface10
+[2016.07.04-09.46.19:122][ 89]LogFbx:Warning: Triangulating static mesh pCylinder23
+[2016.07.04-09.46.19:262][ 89]LogFbx:Warning: Triangulating static mesh pCylinder24
+[2016.07.04-09.46.19:402][ 89]LogFbx:Warning: Triangulating static mesh pCylinder25
+[2016.07.04-09.46.19:547][ 89]LogFbx:Warning: Triangulating static mesh pCylinder26
+[2016.07.04-09.46.19:686][ 89]LogFbx:Warning: Triangulating static mesh pCylinder27
+[2016.07.04-09.46.19:823][ 89]LogFbx:Warning: Triangulating static mesh pCylinder28
+[2016.07.04-09.46.19:959][ 89]LogFbx:Warning: Triangulating static mesh pCylinder29
+[2016.07.04-09.46.20:096][ 89]LogFbx:Warning: Triangulating static mesh polySurface11
+[2016.07.04-09.46.20:257][ 89]LogFbx:Warning: Triangulating static mesh polySurface12
+[2016.07.04-09.46.20:419][ 89]LogFbx:Warning: Triangulating static mesh polySurface13
+[2016.07.04-09.46.20:592][ 89]LogFbx:Warning: Triangulating static mesh polySurface14
+[2016.07.04-09.46.20:760][ 89]LogFbx:Warning: Triangulating static mesh polySurface19
+[2016.07.04-09.46.21:399][ 89]LogFbx:Warning: Triangulating static mesh pTorus5
+[2016.07.04-09.46.21:472][ 89]LogFbx:Warning: Triangulating static mesh pTorus6
+[2016.07.04-09.46.21:565][ 89]LogFbx:Warning: Triangulating static mesh pTorus7
+[2016.07.04-09.46.21:659][ 89]LogFbx:Warning: Triangulating static mesh pCylinder38
+[2016.07.04-09.46.22:766][ 89]LogFbx:Warning: Triangulating static mesh pCylinder39
+[2016.07.04-09.46.22:788][ 89]LogFbx:Warning: Triangulating static mesh pCylinder40
+[2016.07.04-09.46.22:811][ 89]LogFbx:Warning: Triangulating static mesh pCylinder41
+[2016.07.04-09.46.22:834][ 89]LogFbx:Warning: Triangulating static mesh pCylinder42
+[2016.07.04-09.46.22:856][ 89]LogFbx:Warning: Triangulating static mesh pCylinder43
+[2016.07.04-09.46.22:879][ 89]LogFbx:Warning: Triangulating static mesh pCylinder44
+[2016.07.04-09.46.22:902][ 89]LogFbx:Warning: Triangulating static mesh pCylinder45
+[2016.07.04-09.46.22:926][ 89]LogFbx:Warning: Triangulating static mesh pCylinder46
+[2016.07.04-09.46.22:950][ 89]LogFbx:Warning: Triangulating static mesh pTorus12
+[2016.07.04-09.46.23:086][ 89]LogFbx:Warning: Triangulating static mesh pCube15
+[2016.07.04-09.46.23:087][ 89]LogFbx:Warning: Triangulating static mesh pCube16
+[2016.07.04-09.46.23:088][ 89]LogFbx:Warning: Triangulating static mesh pCube17
+[2016.07.04-09.46.23:089][ 89]LogFbx:Warning: Triangulating static mesh pCube18
+[2016.07.04-09.46.23:090][ 89]LogFbx:Warning: Triangulating static mesh pTorus13
+[2016.07.04-09.46.23:223][ 89]LogFbx:Warning: Triangulating static mesh pCube19
+[2016.07.04-09.46.23:225][ 89]LogFbx:Warning: Triangulating static mesh pCube20
+[2016.07.04-09.46.23:226][ 89]LogFbx:Warning: Triangulating static mesh pCube21
+[2016.07.04-09.46.23:227][ 89]LogFbx:Warning: Triangulating static mesh pCube22
+[2016.07.04-09.46.23:300][ 89]LogStaticMesh: Building static mesh reactor...
+[2016.07.04-09.46.23:420][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.29:535][ 89]LogStaticMesh: Built static mesh [6.23s] /Game/Assets/reactor.reactor
+[2016.07.04-09.46.29:734][ 89]LogStaticMesh:Warning: reactor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.29:765][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.29:765][ 89]FBXImport:Warning: Warning reactor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.29:992][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\example.fbx)
+[2016.07.04-09.46.30:011][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\example.fbx
+[2016.07.04-09.46.30:029][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.30:032][ 89]LogFbx:Warning: Triangulating static mesh pCylinder38
+[2016.07.04-09.46.31:196][ 89]LogStaticMesh: Building static mesh example...
+[2016.07.04-09.46.31:388][ 89]LogStaticMesh: Built static mesh [0.19s] /Game/Assets/example.example
+[2016.07.04-09.46.31:412][ 89]LogStaticMesh:Warning: example has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.31:419][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.31:419][ 89]FBXImport:Warning: Warning example has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.31:451][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\WindowLong.fbx)
+[2016.07.04-09.46.31:460][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\WindowLong.fbx
+[2016.07.04-09.46.31:465][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.31:467][ 89]LogFbx:Warning: Triangulating static mesh pCylinder9
+[2016.07.04-09.46.31:550][ 89]LogStaticMesh: Building static mesh WindowLong...
+[2016.07.04-09.46.31:551][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.31:572][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/WindowLong.WindowLong
+[2016.07.04-09.46.31:573][ 89]LogStaticMesh:Warning: WindowLong has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.31:577][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.31:577][ 89]FBXImport:Warning: Warning WindowLong has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.31:580][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon3.fbx)
+[2016.07.04-09.46.31:589][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon3.fbx
+[2016.07.04-09.46.31:594][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.31:596][ 89]LogFbx:Warning: Triangulating static mesh pCylinder8
+[2016.07.04-09.46.31:643][ 89]LogStaticMesh: Building static mesh WindowHexagon3...
+[2016.07.04-09.46.31:654][ 89]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/WindowHexagon3.WindowHexagon3
+[2016.07.04-09.46.31:658][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.31:661][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon2.fbx)
+[2016.07.04-09.46.31:671][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon2.fbx
+[2016.07.04-09.46.31:678][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.31:680][ 89]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2016.07.04-09.46.31:728][ 89]LogStaticMesh: Building static mesh WindowHexagon2...
+[2016.07.04-09.46.31:743][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/WindowHexagon2.WindowHexagon2
+[2016.07.04-09.46.31:744][ 89]LogStaticMesh:Warning: WindowHexagon2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.31:750][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.31:750][ 89]FBXImport:Warning: Warning WindowHexagon2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.31:754][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon.fbx)
+[2016.07.04-09.46.31:763][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\WindowHexagon.fbx
+[2016.07.04-09.46.31:771][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.31:774][ 89]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.07.04-09.46.31:871][ 89]LogStaticMesh: Building static mesh WindowHexagon...
+[2016.07.04-09.46.31:872][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.31:897][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/WindowHexagon.WindowHexagon
+[2016.07.04-09.46.31:900][ 89]LogStaticMesh:Warning: WindowHexagon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.31:904][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.31:904][ 89]FBXImport:Warning: Warning WindowHexagon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.31:904][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.31:908][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType5.fbx)
+[2016.07.04-09.46.31:920][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType5.fbx
+[2016.07.04-09.46.31:930][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.31:932][ 89]LogFbx:Warning: Triangulating static mesh polySurface171
+[2016.07.04-09.46.31:940][ 89]LogFbx:Warning: Triangulating static mesh polySurface172
+[2016.07.04-09.46.31:945][ 89]LogFbx:Warning: Triangulating static mesh polySurface173
+[2016.07.04-09.46.32:037][ 89]LogFbx:Warning: Triangulating static mesh polySurface174
+[2016.07.04-09.46.32:041][ 89]LogFbx:Warning: Triangulating static mesh polySurface175
+[2016.07.04-09.46.32:045][ 89]LogFbx:Warning: Triangulating static mesh polySurface176
+[2016.07.04-09.46.32:049][ 89]LogFbx:Warning: Triangulating static mesh polySurface177
+[2016.07.04-09.46.32:155][ 89]LogFbx:Warning: Triangulating static mesh polySurface178
+[2016.07.04-09.46.32:170][ 89]LogStaticMesh: Building static mesh AirlockType5...
+[2016.07.04-09.46.32:216][ 89]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AirlockType5.AirlockType5
+[2016.07.04-09.46.32:219][ 89]LogStaticMesh:Warning: AirlockType5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.32:223][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.32:223][ 89]FBXImport:Warning: Warning AirlockType5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.32:228][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType54.fbx)
+[2016.07.04-09.46.32:242][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType54.fbx
+[2016.07.04-09.46.32:253][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.32:255][ 89]LogFbx:Warning: Triangulating static mesh polySurface179
+[2016.07.04-09.46.32:262][ 89]LogFbx:Warning: Triangulating static mesh polySurface180
+[2016.07.04-09.46.32:267][ 89]LogFbx:Warning: Triangulating static mesh polySurface181
+[2016.07.04-09.46.32:352][ 89]LogFbx:Warning: Triangulating static mesh polySurface182
+[2016.07.04-09.46.32:355][ 89]LogFbx:Warning: Triangulating static mesh polySurface183
+[2016.07.04-09.46.32:359][ 89]LogFbx:Warning: Triangulating static mesh polySurface184
+[2016.07.04-09.46.32:362][ 89]LogFbx:Warning: Triangulating static mesh polySurface185
+[2016.07.04-09.46.32:461][ 89]LogFbx:Warning: Triangulating static mesh polySurface186
+[2016.07.04-09.46.32:473][ 89]LogStaticMesh: Building static mesh AirlockType54...
+[2016.07.04-09.46.32:524][ 89]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AirlockType54.AirlockType54
+[2016.07.04-09.46.32:527][ 89]LogStaticMesh:Warning: AirlockType54 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.32:533][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.32:533][ 89]FBXImport:Warning: Warning AirlockType54 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.32:537][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType3.fbx)
+[2016.07.04-09.46.32:549][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType3.fbx
+[2016.07.04-09.46.32:555][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.32:558][ 89]LogFbx:Warning: Triangulating static mesh pCube82
+[2016.07.04-09.46.32:589][ 89]LogFbx:Warning: Triangulating static mesh pCube83
+[2016.07.04-09.46.32:615][ 89]LogFbx:Warning: Triangulating static mesh pCube84
+[2016.07.04-09.46.32:654][ 89]LogStaticMesh: Building static mesh AirlockType3...
+[2016.07.04-09.46.32:671][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AirlockType3.AirlockType3
+[2016.07.04-09.46.32:672][ 89]LogStaticMesh:Warning: AirlockType3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.32:677][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.32:677][ 89]FBXImport:Warning: Warning AirlockType3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.32:680][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType2.fbx)
+[2016.07.04-09.46.32:691][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType2.fbx
+[2016.07.04-09.46.32:697][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.32:699][ 89]LogFbx:Warning: Triangulating static mesh pCube78
+[2016.07.04-09.46.32:730][ 89]LogFbx:Warning: Triangulating static mesh pCube79
+[2016.07.04-09.46.32:749][ 89]LogFbx:Warning: Triangulating static mesh pCube80
+[2016.07.04-09.46.32:788][ 89]LogFbx:Warning: Triangulating static mesh pCube81
+[2016.07.04-09.46.32:793][ 89]LogStaticMesh: Building static mesh AirlockType2...
+[2016.07.04-09.46.32:807][ 89]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AirlockType2.AirlockType2
+[2016.07.04-09.46.32:809][ 89]LogStaticMesh:Warning: AirlockType2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.32:812][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.32:812][ 89]FBXImport:Warning: Warning AirlockType2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.32:816][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType1.fbx)
+[2016.07.04-09.46.32:827][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType1.fbx
+[2016.07.04-09.46.32:832][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.32:834][ 89]LogFbx:Warning: Triangulating static mesh pCube74
+[2016.07.04-09.46.32:865][ 89]LogFbx:Warning: Triangulating static mesh pCube75
+[2016.07.04-09.46.32:884][ 89]LogFbx:Warning: Triangulating static mesh pCube76
+[2016.07.04-09.46.32:901][ 89]LogFbx:Warning: Triangulating static mesh pCube77
+[2016.07.04-09.46.32:914][ 89]LogStaticMesh: Building static mesh AirlockType1...
+[2016.07.04-09.46.32:915][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.32:935][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AirlockType1.AirlockType1
+[2016.07.04-09.46.32:936][ 89]LogStaticMesh:Warning: AirlockType1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.32:940][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.32:940][ 89]FBXImport:Warning: Warning AirlockType1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.32:944][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\ChairCaptain.fbx)
+[2016.07.04-09.46.32:952][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\ChairCaptain.fbx
+[2016.07.04-09.46.32:960][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.32:961][ 89]LogFbx:Warning: Triangulating static mesh pCylinder11
+[2016.07.04-09.46.32:994][ 89]LogFbx:Warning: Triangulating static mesh pCube15
+[2016.07.04-09.46.33:006][ 89]LogFbx:Warning: Triangulating static mesh pCube16
+[2016.07.04-09.46.33:195][ 89]LogFbx:Warning: Triangulating static mesh pCube17
+[2016.07.04-09.46.33:390][ 89]LogStaticMesh: Building static mesh ChairCaptain...
+[2016.07.04-09.46.33:888][ 89]LogStaticMesh: Built static mesh [0.50s] /Game/Assets/ChairCaptain.ChairCaptain
+[2016.07.04-09.46.33:892][ 89]LogStaticMesh:Warning: ChairCaptain has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.33:896][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.33:896][ 89]FBXImport:Warning: Warning ChairCaptain has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.33:902][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret3.fbx)
+[2016.07.04-09.46.33:913][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret3.fbx
+[2016.07.04-09.46.33:921][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.33:923][ 89]LogFbx:Warning: Triangulating static mesh SphericalTurret
+[2016.07.04-09.46.34:065][ 89]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.07.04-09.46.34:091][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.46.34:119][ 89]LogStaticMesh: Building static mesh SphericalTurret3...
+[2016.07.04-09.46.34:146][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/SphericalTurret3.SphericalTurret3
+[2016.07.04-09.46.34:150][ 89]LogStaticMesh:Warning: SphericalTurret3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.34:155][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.34:155][ 89]FBXImport:Warning: Warning SphericalTurret3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.34:160][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret2.fbx)
+[2016.07.04-09.46.34:171][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret2.fbx
+[2016.07.04-09.46.34:178][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.34:180][ 89]LogFbx:Warning: Triangulating static mesh SphericalTurret1
+[2016.07.04-09.46.34:375][ 89]LogFbx:Warning: Triangulating static mesh polySurface8
+[2016.07.04-09.46.34:402][ 89]LogFbx:Warning: Triangulating static mesh polySurface9
+[2016.07.04-09.46.34:429][ 89]LogFbx:Warning: Triangulating static mesh pCube14
+[2016.07.04-09.46.34:466][ 89]LogStaticMesh: Building static mesh SphericalTurret2...
+[2016.07.04-09.46.34:507][ 89]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/SphericalTurret2.SphericalTurret2
+[2016.07.04-09.46.34:512][ 89]LogStaticMesh:Warning: SphericalTurret2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.34:517][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.34:517][ 89]FBXImport:Warning: Warning SphericalTurret2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.34:525][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret.fbx)
+[2016.07.04-09.46.34:536][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\SphericalTurret.fbx
+[2016.07.04-09.46.34:545][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.34:547][ 89]LogFbx:Warning: Triangulating static mesh SphericalTurret
+[2016.07.04-09.46.34:687][ 89]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.07.04-09.46.34:715][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.46.34:741][ 89]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.07.04-09.46.34:777][ 89]LogStaticMesh: Building static mesh SphericalTurret...
+[2016.07.04-09.46.34:810][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/SphericalTurret.SphericalTurret
+[2016.07.04-09.46.34:815][ 89]LogStaticMesh:Warning: SphericalTurret has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.34:820][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.34:820][ 89]FBXImport:Warning: Warning SphericalTurret has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.34:827][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\PyramidTurretSmall.fbx)
+[2016.07.04-09.46.34:837][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\PyramidTurretSmall.fbx
+[2016.07.04-09.46.34:843][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.34:845][ 89]LogFbx:Warning: Triangulating static mesh MiniTriangle
+[2016.07.04-09.46.34:896][ 89]LogStaticMesh: Building static mesh PyramidTurretSmall...
+[2016.07.04-09.46.34:897][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.34:907][ 89]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/PyramidTurretSmall.PyramidTurretSmall
+[2016.07.04-09.46.34:912][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.34:912][ 89]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.07.04-09.46.34:915][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\PyramidTurretLarge.fbx)
+[2016.07.04-09.46.34:924][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\PyramidTurretLarge.fbx
+[2016.07.04-09.46.34:929][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.34:931][ 89]LogFbx:Warning: Triangulating static mesh TriangleTurret
+[2016.07.04-09.46.35:023][ 89]LogFbx:Warning: Triangulating static mesh pCube12
+[2016.07.04-09.46.35:025][ 89]LogStaticMesh: Building static mesh PyramidTurretLarge...
+[2016.07.04-09.46.35:026][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.35:043][ 89]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/PyramidTurretLarge.PyramidTurretLarge
+[2016.07.04-09.46.35:044][ 89]LogStaticMesh:Warning: PyramidTurretLarge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.35:049][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.35:049][ 89]FBXImport:Warning: Warning PyramidTurretLarge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.35:052][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\CubeTurret2.fbx)
+[2016.07.04-09.46.35:061][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\CubeTurret2.fbx
+[2016.07.04-09.46.35:069][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.35:071][ 89]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.07.04-09.46.35:098][ 89]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.07.04-09.46.35:125][ 89]LogFbx:Warning: Triangulating static mesh CubeTurret1
+[2016.07.04-09.46.35:244][ 89]LogFbx:Warning: Triangulating static mesh pCube7
+[2016.07.04-09.46.35:282][ 89]LogFbx:Warning: Triangulating static mesh pCube8
+[2016.07.04-09.46.35:322][ 89]LogStaticMesh: Building static mesh CubeTurret2...
+[2016.07.04-09.46.35:325][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.35:375][ 89]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/CubeTurret2.CubeTurret2
+[2016.07.04-09.46.35:379][ 89]LogStaticMesh:Warning: CubeTurret2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.35:384][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.35:384][ 89]FBXImport:Warning: Warning CubeTurret2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.35:391][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\CubeTurret1.fbx)
+[2016.07.04-09.46.35:401][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\CubeTurret1.fbx
+[2016.07.04-09.46.35:408][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.35:410][ 89]LogFbx:Warning: Triangulating static mesh polySurface6
+[2016.07.04-09.46.35:436][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.46.35:463][ 89]LogFbx:Warning: Triangulating static mesh CubeTurret2
+[2016.07.04-09.46.35:584][ 89]LogFbx:Warning: Triangulating static mesh pCube10
+[2016.07.04-09.46.35:619][ 89]LogFbx:Warning: Triangulating static mesh pCube11
+[2016.07.04-09.46.35:657][ 89]LogStaticMesh: Building static mesh CubeTurret1...
+[2016.07.04-09.46.35:661][ 89]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-09.46.35:707][ 89]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/CubeTurret1.CubeTurret1
+[2016.07.04-09.46.35:711][ 89]LogStaticMesh:Warning: CubeTurret1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.35:717][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.35:717][ 89]FBXImport:Warning: Warning CubeTurret1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.35:723][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Bed4.fbx)
+[2016.07.04-09.46.35:735][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Bed4.fbx
+[2016.07.04-09.46.35:750][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.35:753][ 89]LogFbx:Warning: Triangulating static mesh polySurface5
+[2016.07.04-09.46.36:238][ 89]LogFbx:Warning: Triangulating static mesh polySurface7
+[2016.07.04-09.46.36:718][ 89]LogFbx:Warning: Triangulating static mesh pCube3
+[2016.07.04-09.46.36:735][ 89]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.07.04-09.46.36:770][ 89]LogFbx:Warning: Triangulating static mesh pCube4
+[2016.07.04-09.46.36:775][ 89]LogFbx:Warning: Triangulating static mesh pCube5
+[2016.07.04-09.46.36:809][ 89]LogFbx:Warning: Triangulating static mesh pSphere1
+[2016.07.04-09.46.36:850][ 89]LogFbx:Warning: Triangulating static mesh pSphere2
+[2016.07.04-09.46.36:889][ 89]LogFbx:Warning: Triangulating static mesh pSphere3
+[2016.07.04-09.46.36:930][ 89]LogFbx:Warning: Triangulating static mesh pSphere4
+[2016.07.04-09.46.36:970][ 89]LogFbx:Warning: Triangulating static mesh pCube17
+[2016.07.04-09.46.37:257][ 89]LogStaticMesh: Building static mesh Bed4...
+[2016.07.04-09.46.37:847][ 89]LogStaticMesh: Built static mesh [0.59s] /Game/Assets/Bed4.Bed4
+[2016.07.04-09.46.37:857][ 89]LogStaticMesh:Warning: Bed4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.37:865][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.37:865][ 89]FBXImport:Warning: Warning Bed4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.37:878][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\bed3.fbx)
+[2016.07.04-09.46.37:889][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\bed3.fbx
+[2016.07.04-09.46.37:896][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.37:898][ 89]LogFbx:Warning: Triangulating static mesh pCube6
+[2016.07.04-09.46.37:944][ 89]LogFbx:Warning: Triangulating static mesh pCube16
+[2016.07.04-09.46.38:213][ 89]LogLinker:Warning: Can't find file '/Game/Assets/Default_Material'
+[2016.07.04-09.46.38:213][ 89]LogLinker:Warning: Can't find file '/Game/Assets/Default_Material'
+[2016.07.04-09.46.38:217][ 89]LogMaterial: Missing cached shader map for material Default_Material, compiling. 
+[2016.07.04-09.46.38:222][ 89]LogFbx:Warning: Triangulating static mesh pCube21
+[2016.07.04-09.46.38:281][ 89]LogStaticMesh: Building static mesh bed3...
+[2016.07.04-09.46.38:340][ 89]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/bed3.bed3
+[2016.07.04-09.46.38:347][ 89]LogStaticMesh:Warning: bed3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-09.46.38:352][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.46.38:352][ 89]FBXImport:Warning: Warning bed3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-09.46.38:362][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\Bed2.fbx)
+[2016.07.04-09.46.38:377][ 89]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\Bed2.fbx
+[2016.07.04-09.46.38:392][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-09.46.38:395][ 89]LogFbx:Warning: Triangulating static mesh pCube9
+[2016.07.04-09.46.38:410][ 89]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.07.04-09.46.38:587][ 89]LogFbx:Warning: Triangulating static mesh pCube18
+[2016.07.04-09.46.38:883][ 89]LogFbx:Warning: Triangulating static mesh pPlane2
+[2016.07.04-09.46.39:067][ 89]LogFbx:Warning: Triangulating static mesh pCube19
+[2016.07.04-09.46.39:123][ 89]LogFbx:Warning: Triangulating static mesh pCube20
+[2016.07.04-09.46.39:187][ 89]LogStaticMesh: Building static mesh Bed2...
+[2016.07.04-09.46.39:726][ 89]LogStaticMesh: Built static mesh [0.54s] /Game/Assets/Bed2.Bed2
+[2016.07.04-09.46.39:741][ 89]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-09.52.55:154][176]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-09.52.56:401][323]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-09.52.56:851][372]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-09.52.59:508][686]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-09.53.08:875][794]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-09.53.22:034][355]LogActorFactory: Actor Factory created Sphere
+[2016.07.04-09.53.22:275][377]LogActorFactory: Actor Factory created Sphere
+[2016.07.04-09.53.23:262][492]Cmd: TRANSACTION UNDO
+[2016.07.04-09.53.23:262][492]LogEditorTransaction: Undo Create Actors
+[2016.07.04-09.53.47:335][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-09.53.48:175][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-09.53.50:500][109]Cmd: DUPLICATE
+[2016.07.04-09.53.50:500][109]Cmd: ACTOR DUPLICATE
+[2016.07.04-09.54.02:092][485]Cmd: TRANSACTION UNDO
+[2016.07.04-09.54.02:092][485]LogEditorTransaction: Undo Rotate Actors
+[2016.07.04-09.54.02:566][524]Cmd: TRANSACTION UNDO
+[2016.07.04-09.54.02:566][524]LogEditorTransaction: Undo Move Actors
+[2016.07.04-09.54.03:252][603]Cmd: TRANSACTION UNDO
+[2016.07.04-09.54.03:252][603]LogEditorTransaction: Undo Duplicate Actors
+[2016.07.04-09.55.06:259][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset" SILENT=true
+[2016.07.04-09.55.06:271][217]LogSavePackage: Save=10.15ms
+[2016.07.04-09.55.06:271][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType117FACF6847029A3AEB767C9FB658C6D8.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset'
+[2016.07.04-09.55.06:272][217]LogSavePackage: Total save time: 11.74ms
+[2016.07.04-09.55.06:272][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset
+[2016.07.04-09.55.06:286][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset" SILENT=true
+[2016.07.04-09.55.06:298][217]LogSavePackage: Save=10.54ms
+[2016.07.04-09.55.06:298][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType25ED5991847BB405601F83AA703C0774D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset'
+[2016.07.04-09.55.06:300][217]LogSavePackage: Total save time: 12.31ms
+[2016.07.04-09.55.06:300][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset
+[2016.07.04-09.55.06:313][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset" SILENT=true
+[2016.07.04-09.55.06:324][217]LogSavePackage: Save=9.11ms
+[2016.07.04-09.55.06:324][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType340253E184C7CFB2F8DBF15BF913D49F3.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset'
+[2016.07.04-09.55.06:326][217]LogSavePackage: Total save time: 11.23ms
+[2016.07.04-09.55.06:326][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset
+[2016.07.04-09.55.06:340][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType5" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType5.uasset" SILENT=true
+[2016.07.04-09.55.06:351][217]LogSavePackage: Save=9.54ms
+[2016.07.04-09.55.06:351][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType5560545DA4D29ED9D353EBE9451A6786B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType5.uasset'
+[2016.07.04-09.55.06:353][217]LogSavePackage: Total save time: 11.63ms
+[2016.07.04-09.55.06:353][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType5.uasset
+[2016.07.04-09.55.06:367][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType54" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType54.uasset" SILENT=true
+[2016.07.04-09.55.06:379][217]LogSavePackage: Save=10.42ms
+[2016.07.04-09.55.06:379][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType54BBA8EA4441C44FD3D2468CBC1A911A50.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType54.uasset'
+[2016.07.04-09.55.06:381][217]LogSavePackage: Total save time: 12.55ms
+[2016.07.04-09.55.06:381][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType54.uasset
+[2016.07.04-09.55.06:395][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bed1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed1.uasset" SILENT=true
+[2016.07.04-09.55.06:406][217]LogSavePackage: Save=8.85ms
+[2016.07.04-09.55.06:406][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Bed1F44446324A3C3529927956AC438F163D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed1.uasset'
+[2016.07.04-09.55.06:407][217]LogSavePackage: Total save time: 10.32ms
+[2016.07.04-09.55.06:407][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed1.uasset
+[2016.07.04-09.55.06:420][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bed2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed2.uasset" SILENT=true
+[2016.07.04-09.55.06:431][217]LogSavePackage: Save=9.82ms
+[2016.07.04-09.55.06:432][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Bed22EC731564B7BFFD078DAAE94C65F16B9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed2.uasset'
+[2016.07.04-09.55.06:433][217]LogSavePackage: Total save time: 11.36ms
+[2016.07.04-09.55.06:433][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed2.uasset
+[2016.07.04-09.55.06:447][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bed3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bed3.uasset" SILENT=true
+[2016.07.04-09.55.06:457][217]LogSavePackage: Save=9.16ms
+[2016.07.04-09.55.06:457][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/bed341FDF5584863E36E2D3FC895F35D8C40.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bed3.uasset'
+[2016.07.04-09.55.06:459][217]LogSavePackage: Total save time: 11.34ms
+[2016.07.04-09.55.06:459][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bed3.uasset
+[2016.07.04-09.55.06:473][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bed4" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed4.uasset" SILENT=true
+[2016.07.04-09.55.06:484][217]LogSavePackage: Save=10.01ms
+[2016.07.04-09.55.06:484][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Bed4409EE98D49DB16F3C276AEB4B025F8E1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed4.uasset'
+[2016.07.04-09.55.06:485][217]LogSavePackage: Total save time: 11.55ms
+[2016.07.04-09.55.06:485][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Bed4.uasset
+[2016.07.04-09.55.06:500][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bedblanket" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket.uasset" SILENT=true
+[2016.07.04-09.55.06:510][217]LogSavePackage: Save=9.17ms
+[2016.07.04-09.55.06:510][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/bedblanket50ADD780408E485189200B92A8792920.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket.uasset'
+[2016.07.04-09.55.06:512][217]LogSavePackage: Total save time: 11.27ms
+[2016.07.04-09.55.06:512][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket.uasset
+[2016.07.04-09.55.06:525][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bedblanket2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket2.uasset" SILENT=true
+[2016.07.04-09.55.06:535][217]LogSavePackage: Save=8.58ms
+[2016.07.04-09.55.06:535][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/bedblanket2390B109446DA309D4E007C9BB815874D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket2.uasset'
+[2016.07.04-09.55.06:536][217]LogSavePackage: Total save time: 10.17ms
+[2016.07.04-09.55.06:536][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/bedblanket2.uasset
+[2016.07.04-09.55.06:549][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/ChairBasic" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairBasic.uasset" SILENT=true
+[2016.07.04-09.55.06:560][217]LogSavePackage: Save=9.64ms
+[2016.07.04-09.55.06:560][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/ChairBasic91680A7F4DA4BE587420908FAD2B030A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairBasic.uasset'
+[2016.07.04-09.55.06:561][217]LogSavePackage: Total save time: 11.33ms
+[2016.07.04-09.55.06:561][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairBasic.uasset
+[2016.07.04-09.55.06:575][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/ChairCaptain" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairCaptain.uasset" SILENT=true
+[2016.07.04-09.55.06:586][217]LogSavePackage: Save=9.51ms
+[2016.07.04-09.55.06:586][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/ChairCaptainA968DEBD4E5972D90C8C73BA6CEA4173.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairCaptain.uasset'
+[2016.07.04-09.55.06:588][217]LogSavePackage: Total save time: 11.23ms
+[2016.07.04-09.55.06:588][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/ChairCaptain.uasset
+[2016.07.04-09.55.06:602][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Computer1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Computer1.uasset" SILENT=true
+[2016.07.04-09.55.06:613][217]LogSavePackage: Save=9.09ms
+[2016.07.04-09.55.06:613][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Computer1125F9D944C009D64F0A1AA9945E5920C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Computer1.uasset'
+[2016.07.04-09.55.06:614][217]LogSavePackage: Total save time: 10.76ms
+[2016.07.04-09.55.06:614][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Computer1.uasset
+[2016.07.04-09.55.06:628][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Corridor" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Corridor.uasset" SILENT=true
+[2016.07.04-09.55.06:639][217]LogSavePackage: Save=9.69ms
+[2016.07.04-09.55.06:639][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/CorridorA91EDAB641E870DF2AFF0C94500CBF95.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Corridor.uasset'
+[2016.07.04-09.55.06:640][217]LogSavePackage: Total save time: 11.28ms
+[2016.07.04-09.55.06:640][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Corridor.uasset
+[2016.07.04-09.55.06:654][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CubeTurret1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret1.uasset" SILENT=true
+[2016.07.04-09.55.06:666][217]LogSavePackage: Save=9.89ms
+[2016.07.04-09.55.06:666][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/CubeTurret13E21906D4F15ED59100151B814840801.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret1.uasset'
+[2016.07.04-09.55.06:668][217]LogSavePackage: Total save time: 11.59ms
+[2016.07.04-09.55.06:668][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret1.uasset
+[2016.07.04-09.55.06:681][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CubeTurret2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret2.uasset" SILENT=true
+[2016.07.04-09.55.06:692][217]LogSavePackage: Save=9.70ms
+[2016.07.04-09.55.06:692][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/CubeTurret2F41A6F1049C04AAE90A104AB32AB5C91.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret2.uasset'
+[2016.07.04-09.55.06:694][217]LogSavePackage: Total save time: 11.47ms
+[2016.07.04-09.55.06:694][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/CubeTurret2.uasset
+[2016.07.04-09.55.06:710][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Default_Material" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Default_Material.uasset" SILENT=true
+[2016.07.04-09.55.06:723][217]LogSavePackage: Save=11.40ms
+[2016.07.04-09.55.06:723][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Default_MaterialEE9590D74AC350A39C279EB195CD5F53.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Default_Material.uasset'
+[2016.07.04-09.55.06:725][217]LogSavePackage: Total save time: 13.62ms
+[2016.07.04-09.55.06:725][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Default_Material.uasset
+[2016.07.04-09.55.06:739][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/example" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/example.uasset" SILENT=true
+[2016.07.04-09.55.06:751][217]LogSavePackage: Save=10.21ms
+[2016.07.04-09.55.06:751][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/example29CCE8B4485933C0184040844A0EFD38.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/example.uasset'
+[2016.07.04-09.55.06:753][217]LogSavePackage: Total save time: 12.08ms
+[2016.07.04-09.55.06:753][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/example.uasset
+[2016.07.04-09.55.06:767][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/FireExtingusher" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireExtingusher.uasset" SILENT=true
+[2016.07.04-09.55.06:777][217]LogSavePackage: Save=9.40ms
+[2016.07.04-09.55.06:777][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FireExtingusherD63EE1F44B4F567A6B6FDFA7BEAFFDCC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireExtingusher.uasset'
+[2016.07.04-09.55.06:781][217]LogSavePackage: Total save time: 13.35ms
+[2016.07.04-09.55.06:781][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireExtingusher.uasset
+[2016.07.04-09.55.06:795][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/FireMask" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireMask.uasset" SILENT=true
+[2016.07.04-09.55.06:806][217]LogSavePackage: Save=9.50ms
+[2016.07.04-09.55.06:806][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FireMaskD1A646F44AB6C86573DF8485A0E14FDC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireMask.uasset'
+[2016.07.04-09.55.06:807][217]LogSavePackage: Total save time: 11.09ms
+[2016.07.04-09.55.06:807][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/FireMask.uasset
+[2016.07.04-09.55.06:820][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/First_person_Torch" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/First_person_Torch.uasset" SILENT=true
+[2016.07.04-09.55.06:831][217]LogSavePackage: Save=9.67ms
+[2016.07.04-09.55.06:831][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/First_person_TorchF6AC5F9247C35CA22587A693A66D70F4.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/First_person_Torch.uasset'
+[2016.07.04-09.55.06:833][217]LogSavePackage: Total save time: 11.17ms
+[2016.07.04-09.55.06:833][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/First_person_Torch.uasset
+[2016.07.04-09.55.06:846][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/globe" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/globe.uasset" SILENT=true
+[2016.07.04-09.55.06:857][217]LogSavePackage: Save=9.77ms
+[2016.07.04-09.55.06:857][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/globe495582F44BBB59854C67598266976253.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/globe.uasset'
+[2016.07.04-09.55.06:859][217]LogSavePackage: Total save time: 11.78ms
+[2016.07.04-09.55.06:859][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/globe.uasset
+[2016.07.04-09.55.06:873][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/GunRiflt" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/GunRiflt.uasset" SILENT=true
+[2016.07.04-09.55.06:884][217]LogSavePackage: Save=9.31ms
+[2016.07.04-09.55.06:884][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/GunRiflt0A218AEF4AB2C4951700A48A42456B7C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/GunRiflt.uasset'
+[2016.07.04-09.55.06:886][217]LogSavePackage: Total save time: 10.98ms
+[2016.07.04-09.55.06:886][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/GunRiflt.uasset
+[2016.07.04-09.55.06:900][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert1.uasset" SILENT=true
+[2016.07.04-09.55.06:912][217]LogSavePackage: Save=10.92ms
+[2016.07.04-09.55.06:912][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert10BF34C7B4471EB804F4C72AA637A9864.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert1.uasset'
+[2016.07.04-09.55.06:914][217]LogSavePackage: Total save time: 12.69ms
+[2016.07.04-09.55.06:914][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert1.uasset
+[2016.07.04-09.55.06:928][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert2.uasset" SILENT=true
+[2016.07.04-09.55.06:940][217]LogSavePackage: Save=10.14ms
+[2016.07.04-09.55.06:940][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert28B06F9C041CE338EE7549D8683E570C9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert2.uasset'
+[2016.07.04-09.55.06:941][217]LogSavePackage: Total save time: 11.64ms
+[2016.07.04-09.55.06:941][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert2.uasset
+[2016.07.04-09.55.06:957][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert3.uasset" SILENT=true
+[2016.07.04-09.55.06:970][217]LogSavePackage: Save=9.94ms
+[2016.07.04-09.55.06:970][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert367D0391A49778C178F2369A3C542ED15.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert3.uasset'
+[2016.07.04-09.55.06:971][217]LogSavePackage: Total save time: 11.38ms
+[2016.07.04-09.55.06:971][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert3.uasset
+[2016.07.04-09.55.06:986][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert4" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert4.uasset" SILENT=true
+[2016.07.04-09.55.06:999][217]LogSavePackage: Save=12.14ms
+[2016.07.04-09.55.06:999][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert4502312C8401E0F09DFD8FCA6AD2F1980.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert4.uasset'
+[2016.07.04-09.55.07:001][217]LogSavePackage: Total save time: 14.04ms
+[2016.07.04-09.55.07:001][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert4.uasset
+[2016.07.04-09.55.07:016][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert5" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert5.uasset" SILENT=true
+[2016.07.04-09.55.07:029][217]LogSavePackage: Save=11.82ms
+[2016.07.04-09.55.07:029][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert53E18E99947906606801EF5A527C9181C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert5.uasset'
+[2016.07.04-09.55.07:030][217]LogSavePackage: Total save time: 13.48ms
+[2016.07.04-09.55.07:030][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert5.uasset
+[2016.07.04-09.55.07:044][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert6" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert6.uasset" SILENT=true
+[2016.07.04-09.55.07:057][217]LogSavePackage: Save=11.41ms
+[2016.07.04-09.55.07:057][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert68CEAB9F34A077BB0E1153CA8F53DAE68.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert6.uasset'
+[2016.07.04-09.55.07:059][217]LogSavePackage: Total save time: 13.30ms
+[2016.07.04-09.55.07:059][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert6.uasset
+[2016.07.04-09.55.07:073][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert7" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert7.uasset" SILENT=true
+[2016.07.04-09.55.07:085][217]LogSavePackage: Save=10.79ms
+[2016.07.04-09.55.07:085][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert748E9AA1E41B061BC8EB3BF84207BC1AF.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert7.uasset'
+[2016.07.04-09.55.07:086][217]LogSavePackage: Total save time: 12.49ms
+[2016.07.04-09.55.07:086][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert7.uasset
+[2016.07.04-09.55.07:101][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/lambert8" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert8.uasset" SILENT=true
+[2016.07.04-09.55.07:113][217]LogSavePackage: Save=10.21ms
+[2016.07.04-09.55.07:113][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/lambert86D03BE314F319E836787398DC2585FB1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert8.uasset'
+[2016.07.04-09.55.07:115][217]LogSavePackage: Total save time: 12.34ms
+[2016.07.04-09.55.07:115][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/lambert8.uasset
+[2016.07.04-09.55.07:128][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lamp1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lamp1.uasset" SILENT=true
+[2016.07.04-09.55.07:139][217]LogSavePackage: Save=9.36ms
+[2016.07.04-09.55.07:139][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Lamp16CF982ED49BF2D200F42438B53367468.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lamp1.uasset'
+[2016.07.04-09.55.07:141][217]LogSavePackage: Total save time: 11.18ms
+[2016.07.04-09.55.07:141][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lamp1.uasset
+[2016.07.04-09.55.07:154][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LargeOxygen" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/LargeOxygen.uasset" SILENT=true
+[2016.07.04-09.55.07:165][217]LogSavePackage: Save=10.02ms
+[2016.07.04-09.55.07:165][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/LargeOxygen334A35A74AC47A8C8FBC7084B313CDDD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/LargeOxygen.uasset'
+[2016.07.04-09.55.07:167][217]LogSavePackage: Total save time: 11.57ms
+[2016.07.04-09.55.07:167][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/LargeOxygen.uasset
+[2016.07.04-09.55.07:180][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lockers1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers1.uasset" SILENT=true
+[2016.07.04-09.55.07:191][217]LogSavePackage: Save=9.34ms
+[2016.07.04-09.55.07:191][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Lockers14D9CD553499BABEB44791DB95445CA98.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers1.uasset'
+[2016.07.04-09.55.07:192][217]LogSavePackage: Total save time: 11.40ms
+[2016.07.04-09.55.07:192][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers1.uasset
+[2016.07.04-09.55.07:207][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lockers2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers2.uasset" SILENT=true
+[2016.07.04-09.55.07:220][217]LogSavePackage: Save=9.28ms
+[2016.07.04-09.55.07:220][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Lockers26CA39C5744D6909437ADC19F1C999AF2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers2.uasset'
+[2016.07.04-09.55.07:222][217]LogSavePackage: Total save time: 11.17ms
+[2016.07.04-09.55.07:222][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Lockers2.uasset
+[2016.07.04-09.55.07:235][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MagHands" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands.uasset" SILENT=true
+[2016.07.04-09.55.07:246][217]LogSavePackage: Save=9.32ms
+[2016.07.04-09.55.07:246][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/MagHandsCA1873E44831F324C177449EAEA268EE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands.uasset'
+[2016.07.04-09.55.07:248][217]LogSavePackage: Total save time: 10.91ms
+[2016.07.04-09.55.07:248][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands.uasset
+[2016.07.04-09.55.07:261][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MagHands2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands2.uasset" SILENT=true
+[2016.07.04-09.55.07:272][217]LogSavePackage: Save=9.50ms
+[2016.07.04-09.55.07:272][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/MagHands2628127C1420ED3F6DE421F80EB63BA66.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands2.uasset'
+[2016.07.04-09.55.07:274][217]LogSavePackage: Total save time: 11.31ms
+[2016.07.04-09.55.07:274][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MagHands2.uasset
+[2016.07.04-09.55.07:288][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/MediumOxygen" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MediumOxygen.uasset" SILENT=true
+[2016.07.04-09.55.07:299][217]LogSavePackage: Save=9.60ms
+[2016.07.04-09.55.07:299][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/MediumOxygen12F6CC834200B8313FB20FBD45F91074.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MediumOxygen.uasset'
+[2016.07.04-09.55.07:301][217]LogSavePackage: Total save time: 11.22ms
+[2016.07.04-09.55.07:301][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/MediumOxygen.uasset
+[2016.07.04-09.55.07:314][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PhotoFrame" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PhotoFrame.uasset" SILENT=true
+[2016.07.04-09.55.07:325][217]LogSavePackage: Save=9.71ms
+[2016.07.04-09.55.07:325][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/PhotoFrame0801EB99453925465188C89CE6B78CB6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PhotoFrame.uasset'
+[2016.07.04-09.55.07:327][217]LogSavePackage: Total save time: 11.33ms
+[2016.07.04-09.55.07:327][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PhotoFrame.uasset
+[2016.07.04-09.55.07:340][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pistol" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Pistol.uasset" SILENT=true
+[2016.07.04-09.55.07:351][217]LogSavePackage: Save=9.31ms
+[2016.07.04-09.55.07:351][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Pistol02DAD2AC41ECAD33DD37E1BB6C876C94.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Pistol.uasset'
+[2016.07.04-09.55.07:352][217]LogSavePackage: Total save time: 11.16ms
+[2016.07.04-09.55.07:352][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Pistol.uasset
+[2016.07.04-09.55.07:367][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PistolV2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PistolV2.uasset" SILENT=true
+[2016.07.04-09.55.07:377][217]LogSavePackage: Save=8.77ms
+[2016.07.04-09.55.07:377][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/PistolV28746DF13482F6460816C3F8D3B21B618.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PistolV2.uasset'
+[2016.07.04-09.55.07:379][217]LogSavePackage: Total save time: 10.66ms
+[2016.07.04-09.55.07:379][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PistolV2.uasset
+[2016.07.04-09.55.07:392][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PyramidTurretLarge" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretLarge.uasset" SILENT=true
+[2016.07.04-09.55.07:403][217]LogSavePackage: Save=9.29ms
+[2016.07.04-09.55.07:403][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/PyramidTurretLarge5E71A26A43B3F81D32F0009B86BF283A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretLarge.uasset'
+[2016.07.04-09.55.07:405][217]LogSavePackage: Total save time: 11.17ms
+[2016.07.04-09.55.07:405][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretLarge.uasset
+[2016.07.04-09.55.07:418][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PyramidTurretSmall" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretSmall.uasset" SILENT=true
+[2016.07.04-09.55.07:428][217]LogSavePackage: Save=9.53ms
+[2016.07.04-09.55.07:429][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/PyramidTurretSmall022B63104AAF173AAAE312884BC6F713.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretSmall.uasset'
+[2016.07.04-09.55.07:430][217]LogSavePackage: Total save time: 11.19ms
+[2016.07.04-09.55.07:430][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/PyramidTurretSmall.uasset
+[2016.07.04-09.55.07:443][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/reactor" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/reactor.uasset" SILENT=true
+[2016.07.04-09.55.07:458][217]LogSavePackage: Save=12.06ms
+[2016.07.04-09.55.07:458][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/reactor9F6FDB434E0B5B731D6917819EA10CCB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/reactor.uasset'
+[2016.07.04-09.55.07:459][217]LogSavePackage: Total save time: 13.62ms
+[2016.07.04-09.55.07:459][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/reactor.uasset
+[2016.07.04-09.55.07:473][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SecurityDoor" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SecurityDoor.uasset" SILENT=true
+[2016.07.04-09.55.07:486][217]LogSavePackage: Save=11.13ms
+[2016.07.04-09.55.07:486][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/SecurityDoor53DBE28243D5283A71727E8CDA8AE839.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SecurityDoor.uasset'
+[2016.07.04-09.55.07:488][217]LogSavePackage: Total save time: 13.29ms
+[2016.07.04-09.55.07:488][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SecurityDoor.uasset
+[2016.07.04-09.55.07:503][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SmallOxygen" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SmallOxygen.uasset" SILENT=true
+[2016.07.04-09.55.07:513][217]LogSavePackage: Save=9.70ms
+[2016.07.04-09.55.07:513][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/SmallOxygen36C55D38410B408CED54299BE74E30C9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SmallOxygen.uasset'
+[2016.07.04-09.55.07:515][217]LogSavePackage: Total save time: 11.20ms
+[2016.07.04-09.55.07:515][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SmallOxygen.uasset
+[2016.07.04-09.55.07:529][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SphericalTurret" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret.uasset" SILENT=true
+[2016.07.04-09.55.07:539][217]LogSavePackage: Save=9.27ms
+[2016.07.04-09.55.07:539][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/SphericalTurret61154B364439FFA9E6F02791E0CAABEF.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret.uasset'
+[2016.07.04-09.55.07:541][217]LogSavePackage: Total save time: 10.93ms
+[2016.07.04-09.55.07:541][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret.uasset
+[2016.07.04-09.55.07:556][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SphericalTurret2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret2.uasset" SILENT=true
+[2016.07.04-09.55.07:568][217]LogSavePackage: Save=10.79ms
+[2016.07.04-09.55.07:568][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/SphericalTurret2A52117FA4A6C5E5ECBA1308E47F62C46.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret2.uasset'
+[2016.07.04-09.55.07:569][217]LogSavePackage: Total save time: 12.31ms
+[2016.07.04-09.55.07:569][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret2.uasset
+[2016.07.04-09.55.07:583][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SphericalTurret3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret3.uasset" SILENT=true
+[2016.07.04-09.55.07:595][217]LogSavePackage: Save=10.44ms
+[2016.07.04-09.55.07:595][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/SphericalTurret3DDA9672544BA724636012CBA208094D5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret3.uasset'
+[2016.07.04-09.55.07:596][217]LogSavePackage: Total save time: 12.15ms
+[2016.07.04-09.55.07:596][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/SphericalTurret3.uasset
+[2016.07.04-09.55.07:610][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Table.uasset" SILENT=true
+[2016.07.04-09.55.07:622][217]LogSavePackage: Save=10.43ms
+[2016.07.04-09.55.07:622][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Table79E4AE9B4B2A8F414EAEDBA99894AC01.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Table.uasset'
+[2016.07.04-09.55.07:624][217]LogSavePackage: Total save time: 12.16ms
+[2016.07.04-09.55.07:624][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Table.uasset
+[2016.07.04-09.55.07:638][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Tablet" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Tablet.uasset" SILENT=true
+[2016.07.04-09.55.07:648][217]LogSavePackage: Save=8.91ms
+[2016.07.04-09.55.07:648][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Tablet7520B6C34AC994D372C6149FDF906DCD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Tablet.uasset'
+[2016.07.04-09.55.07:649][217]LogSavePackage: Total save time: 10.42ms
+[2016.07.04-09.55.07:649][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/Tablet.uasset
+[2016.07.04-09.55.07:664][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TorchFloor" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/TorchFloor.uasset" SILENT=true
+[2016.07.04-09.55.07:674][217]LogSavePackage: Save=9.24ms
+[2016.07.04-09.55.07:674][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/TorchFloor4377F950470F1825070D53A34D45B5BC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/TorchFloor.uasset'
+[2016.07.04-09.55.07:676][217]LogSavePackage: Total save time: 10.81ms
+[2016.07.04-09.55.07:676][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/TorchFloor.uasset
+[2016.07.04-09.55.07:691][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WindowHexagon" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon.uasset" SILENT=true
+[2016.07.04-09.55.07:704][217]LogSavePackage: Save=9.67ms
+[2016.07.04-09.55.07:704][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/WindowHexagonCBA0099D437F44691470EC8372477EE5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon.uasset'
+[2016.07.04-09.55.07:706][217]LogSavePackage: Total save time: 11.47ms
+[2016.07.04-09.55.07:706][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon.uasset
+[2016.07.04-09.55.07:721][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WindowHexagon2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon2.uasset" SILENT=true
+[2016.07.04-09.55.07:732][217]LogSavePackage: Save=9.96ms
+[2016.07.04-09.55.07:732][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/WindowHexagon2D903F51C4BD9CCA4E6A60F9FEE5585FC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon2.uasset'
+[2016.07.04-09.55.07:734][217]LogSavePackage: Total save time: 11.86ms
+[2016.07.04-09.55.07:734][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon2.uasset
+[2016.07.04-09.55.07:749][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WindowHexagon3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon3.uasset" SILENT=true
+[2016.07.04-09.55.07:760][217]LogSavePackage: Save=9.76ms
+[2016.07.04-09.55.07:760][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/WindowHexagon32DA4584444B23B30DCE7D5A8F6988B67.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon3.uasset'
+[2016.07.04-09.55.07:762][217]LogSavePackage: Total save time: 11.62ms
+[2016.07.04-09.55.07:762][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowHexagon3.uasset
+[2016.07.04-09.55.07:775][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WindowLong" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowLong.uasset" SILENT=true
+[2016.07.04-09.55.07:784][217]LogSavePackage: Save=8.62ms
+[2016.07.04-09.55.07:784][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/WindowLongBAF2229244172C8E2491B486823BB39F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowLong.uasset'
+[2016.07.04-09.55.07:786][217]LogSavePackage: Total save time: 10.45ms
+[2016.07.04-09.55.07:786][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/WindowLong.uasset
+[2016.07.04-09.55.08:894][217]LogSavePackage: Save=1035.79ms
+[2016.07.04-09.55.08:894][217]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FirstPersonExampleMapFD6EA03247925F002C1143BD5157C2C1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.04-09.55.08:897][217]LogSavePackage: Total save time: 1055.37ms
+[2016.07.04-09.55.08:897][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.04-09.55.08:945][217]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.157
+[2016.07.04-09.55.09:200][218]Cmd: QUIT_EDITOR
+[2016.07.04-09.55.09:239][218]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.04-09.55.09:270][218]LogExit: Preparing to exit.
+[2016.07.04-09.55.09:991][218]LogExit: Editor shut down
+[2016.07.04-09.55.09:991][218]LogExit: Transaction tracking system shut down
+[2016.07.04-09.55.10:162][218]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.04-09.55.10:162][218]LogExit: Object subsystem successfully closed.
+[2016.07.04-09.55.10:172][218]LogD3D11RHI: Shutdown
+[2016.07.04-09.55.10:172][218]LogD3D11RHI: CleanupD3DDevice
+[2016.07.04-09.55.10:229][218]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.04-09.55.10:252][218]LogDerivedDataCache: Shutdown
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.07.04-09.55.10:252][218]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.07.04-09.55.10:253][218]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.07.04-09.55.10:254][218]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.07.04-09.55.10:254][218]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.07.04-09.55.10:254][218]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.07.04-09.55.10:254][218]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.07.04-09.55.10:254][218]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.07.04-09.55.10:478][218]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.07.04-09.55.10:479][218]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.07.04-09.55.10:520][218]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.07.04-09.55.10:521][218]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.07.04-09.55.10:586][218]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.07.04-09.55.10:587][218]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.07.04-09.55.10:587][218]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.07.04-09.55.10:587][218]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.07.04-09.55.10:587][218]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.07.04-09.55.10:663][218]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.07.04-09.55.10:664][218]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.07.04-09.55.10:664][218]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.04-09.55.10:764][218]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.04-09.55.10:765][218]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.04-09.55.10:765][218]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.04-09.55.10:766][218]LogDerivedDataCache: Shutdown
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.04-09.55.10:766][218]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.04-09.55.12:770][218]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.04-09.55.12:770][218]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.04-09.55.12:771][218]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.04-09.55.12:771][218]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.04-09.55.12:771][218]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.04-09.55.12:771][218]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.04-09.55.12:771][218]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.04-09.55.12:772][218]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.04-09.55.12:778][218]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.04-09.55.12:778][218]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.04-09.55.12:781][218]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.04-09.55.12:781][218]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.04-09.55.12:781][218]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.04-09.55.12:781][218]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.04-09.55.12:781][218]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.04-09.55.12:795][218]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.04-09.55.12:795][218]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.04-09.55.12:797][218]LogExit: Exiting.
+[2016.07.04-09.55.12:799][218]Log file closed, 07/04/16 19:55:12

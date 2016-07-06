@@ -1,0 +1,1220 @@
+﻿Log file open, 07/04/16 21:07:53
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1548882895) SRandInit(-1548882894).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.083044
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.04-11.07.53:347][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-11.07.53:347][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.04-11.07.53:362][  0]LogInit: Computer: PC
+[2016.07.04-11.07.53:362][  0]LogInit: User: User
+[2016.07.04-11.07.53:362][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.04-11.07.53:362][  0]LogInit: High frequency timer resolution =3.897229 MHz
+[2016.07.04-11.07.53:362][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.07.04-11.07.53:362][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.04-11.07.53:362][  0]LogMemory: Process Physical Memory: 314.39 MB used, 314.39 MB peak
+[2016.07.04-11.07.53:362][  0]LogMemory: Process Virtual Memory: 314.95 MB used, 314.95 MB peak
+[2016.07.04-11.07.53:362][  0]LogMemory: Physical Memory: 5430.80 MB used, 16321.86 MB total
+[2016.07.04-11.07.53:362][  0]LogMemory: Virtual Memory: 653.24 MB used, 134217728.00 MB total
+[2016.07.04-11.07.53:557][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.07.04-11.07.53:922][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.04-11.07.53:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.07.04-11.07.53:942][  0]LogD3D11RHI:       4009MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 1 output[s]
+[2016.07.04-11.07.53:943][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.04-11.07.53:943][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 0 output[s]
+[2016.07.04-11.07.53:943][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.04-11.07.53:948][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.04-11.07.53:948][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.07.04-11.07.53:948][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.04-11.07.53:948][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.04-11.07.53:948][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.04-11.07.53:957][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.04-11.07.53:972][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/11864/).
+[2016.07.04-11.07.53:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/850FC16E46B71A01506CF3872076BBC8/'.
+[2016.07.04-11.07.53:972][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.04-11.07.55:399][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.04-11.07.55:402][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.04-11.07.55:406][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.04-11.07.55:409][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.04-11.07.55:413][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.04-11.07.55:417][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.04-11.07.55:419][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.04-11.07.55:421][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.04-11.07.55:423][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.04-11.07.55:425][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.04-11.07.55:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.04-11.07.55:433][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.04-11.07.55:433][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.04-11.07.55:433][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.04-11.07.55:467][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.04-11.07.55:469][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.04-11.07.55:471][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.04-11.07.55:473][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.04-11.07.55:478][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.04-11.07.55:478][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.04-11.07.55:710][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.04-11.07.55:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.04-11.07.55:766][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.04-11.07.55:778][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.04-11.07.57:680][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-11.07.57:681][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.04-11.07.57:765][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.04-11.07.57:882][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.04-11.07.57:882][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.04-11.07.57:882][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.04-11.07.58:249][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.04-11.07.58:249][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.04-11.07.58:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.04-11.07.58:253][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.04-11.07.58:339][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-11.07.58:339][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-11.07.58:519][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-11.07.58:519][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-11.07.58:519][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-11.07.58:519][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-11.07.58:519][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-11.07.58:519][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-11.07.59:394][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.04-11.07.59:503][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.07.04-11.07.59:700][  0]SourceControl: Info Source control is disabled
+[2016.07.04-11.07.59:701][  0]SourceControl: Info Source control is disabled
+[2016.07.04-11.07.59:705][  0]SourceControl: Info Source control is disabled
+[2016.07.04-11.07.59:710][  0]SourceControl: Info Source control is disabled
+[2016.07.04-11.07.59:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.04-11.07.59:872][  0]LogEngine: Initializing Engine...
+[2016.07.04-11.08.00:073][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.04-11.08.00:080][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.08.00:100][  0]LogInit: FAudioDevice initialized.
+[2016.07.04-11.08.00:122][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/User/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-11.08.00:129][  0]LogInit: Texture streaming: Enabled
+[2016.07.04-11.08.00:147][  0]LogInit: Transaction tracking system initialized
+[2016.07.04-11.08.00:163][  0]BlueprintLog: New page: Editor Load
+[2016.07.04-11.08.00:225][  0]LocalizationService: Info Localization service is disabled
+[2016.07.04-11.08.00:285][  0]LogConsoleResponse:Display: 
+[2016.07.04-11.08.00:565][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.04-11.08.00:565][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.04-11.08.00:565][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.04-11.08.00:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/' took 0.02s
+[2016.07.04-11.08.00:607][  0]SourceControl: Info Source control is disabled
+[2016.07.04-11.08.00:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.04-11.08.00:609][  0]LightingResults: New page: Lighting Build
+[2016.07.04-11.08.00:612][  0]MapCheck: New page: Map Check
+[2016.07.04-11.08.00:612][  0]LightingResults: New page: Lighting Build
+[2016.07.04-11.08.01:206][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.08.01:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.04-11.08.01:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.04-11.08.01:340][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.068ms to complete.
+[2016.07.04-11.08.01:340][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.733
+[2016.07.04-11.08.01:496][  0]LogCollectionManager: Loaded 0 collections in 0.002524 seconds
+[2016.07.04-11.08.01:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.07.04-11.08.01:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/Developers/User/Collections/' took 0.01s
+[2016.07.04-11.08.01:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.07.04-11.08.01:540][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.07.04-11.08.01:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1979 classes and 343 folders.
+[2016.07.04-11.08.01:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.04-11.08.01:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.04-11.08.01:556][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.07.04-11.08.01:561][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.04-11.08.01:569][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.04-11.08.01:723][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.07.04-11.08.01:726][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.07.04-11.08.01:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.04-11.08.01:757][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.04-11.08.01:783][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.04-11.08.01:783][  0]LogLoad: Full Startup: 9.75 seconds (BP compile: 0.09 seconds)
+[2016.07.04-11.08.01:783][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.04-11.08.01:783][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.04-11.08.02:122][  0]LogOcInput: OculusInput pre-init called
+[2016.07.04-11.08.02:200][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.04-11.08.02:455][  1]LogRenderer: Reallocating scene render targets to support 756x584 (Frame:2).
+[2016.07.04-11.08.02:791][  2]LogAssetRegistry: Asset discovery search completed in 3.3097 seconds
+[2016.07.04-11.08.02:791][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.04-11.08.02:791][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.07.04-11.08.25:924][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType2)
+[2016.07.04-11.08.54:312][399]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 108 classes and 0 folders.
+[2016.07.04-11.08.54:796][400]LogRenderer: Reallocating scene render targets to support 756x672 (Frame:2743).
+[2016.07.04-11.09.17:917][414]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.04-11.09.50:084][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.09.51:417][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.09.51:780][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType2)
+[2016.07.04-11.11.11:018][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.11.11:853][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType2)
+[2016.07.04-11.11.15:826][831]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.11.23:768][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.11.24:127][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType2)
+[2016.07.04-11.11.24:385][706]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.11.34:007][676]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-11.11.34:825][753]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-11.11.49:316][268]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.11.55:956][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.12.09:079][336]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.12.11:147][519]Cmd: ACTOR BAKEPREPIVOT
+[2016.07.04-11.12.30:294][529]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.12.32:654][736]Cmd: ACTOR BAKEPREPIVOT
+[2016.07.04-11.13.03:275][ 17]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.13.14:660][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.13.50:600][618]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.021 s
+[2016.07.04-11.13.50:600][618]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: OwnerActor [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavigationSystem.cpp] [Line: 2493]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-Engine.dll
+UE4Editor-DetailCustomizations.dll
+UE4Editor-DetailCustomizations.dll
+UE4Editor-DetailCustomizations.dll
+UE4Editor-DetailCustomizations.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.07.04-11.13.50:600][618]LogStats:                SubmitErrorReport -  0.000 s
+[2016.07.04-11.13.50:871][618]LogStats:                    SendNewReport -  0.270 s
+[2016.07.04-11.13.50:871][618]LogStats:             FDebug::EnsureFailed -  0.292 s
+[2016.07.04-11.15.14:624][919]BlueprintLog: New page: Compile AirlockOpen1
+[2016.07.04-11.15.14:781][919]BlueprintEditorCompileResults: Info [0442.75] Compile of AirlockOpen1 successful! [in 156 ms]
+[2016.07.04-11.15.15:374][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset" SILENT=true
+[2016.07.04-11.15.15:394][974]LogSavePackage: Save=18.25ms
+[2016.07.04-11.15.15:394][974]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen10319AFDB4381BFFEDD9DA282AC7D85CA.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset'
+[2016.07.04-11.15.15:396][974]LogSavePackage: Total save time: 21.29ms
+[2016.07.04-11.15.15:396][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset
+[2016.07.04-11.19.18:265][456]LogEditorTransaction: Undo New Value Entered
+[2016.07.04-11.19.18:442][475]LogEditorTransaction: Undo New Value Entered
+[2016.07.04-11.19.19:027][525]LogEditorTransaction: Undo New Time Entered
+[2016.07.04-11.21.37:996][722]LogSavePackage: Save=1057.72ms
+[2016.07.04-11.21.37:996][722]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FirstPersonExampleMap_Auto130238AFA46021FDD83271CA038E2C841.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.07.04-11.21.37:999][722]LogSavePackage: Total save time: 1075.51ms
+[2016.07.04-11.21.37:999][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.07.04-11.21.38:003][722]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.105
+[2016.07.04-11.21.38:003][722]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.105
+[2016.07.04-11.21.38:024][722]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AirlockOpen1] ([1] browsable assets)...
+[2016.07.04-11.21.38:034][722]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AirlockOpen1.AirlockOpen1]
+[2016.07.04-11.21.38:034][722]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AirlockOpen1]
+[2016.07.04-11.21.38:068][722]LogSavePackage: Save=27.72ms
+[2016.07.04-11.21.38:068][722]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen1_Auto1927558644D20E4DF7FB3A4B9BE2B01A8.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/AirlockOpen1_Auto1.uasset'
+[2016.07.04-11.21.38:068][722]LogSavePackage: Total save time: 32.86ms
+[2016.07.04-11.21.38:068][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/AirlockOpen1_Auto1.uasset
+[2016.07.04-11.21.38:068][722]LogFileHelpers: Auto-saving content packages took 0.048
+[2016.07.04-11.22.04:830][409]BlueprintLog: New page: Compile AirlockOpen1
+[2016.07.04-11.22.04:937][409]BlueprintEditorCompileResults: Info [0852.90] Compile of AirlockOpen1 successful! [in 106 ms]
+[2016.07.04-11.22.08:517][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset" SILENT=true
+[2016.07.04-11.22.08:549][772]LogSavePackage: Save=28.27ms
+[2016.07.04-11.22.08:549][772]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen19555C27D4EAA7C2A16A3758D85008A02.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset'
+[2016.07.04-11.22.08:553][772]LogSavePackage: Total save time: 34.00ms
+[2016.07.04-11.22.08:553][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset
+[2016.07.04-11.24.00:926][283]BlueprintLog: New page: Compile AirlockOpen1
+[2016.07.04-11.24.00:991][283]BlueprintEditorCompileResults: Info [0968.96] Compile of AirlockOpen1 successful! [in 65 ms]
+[2016.07.04-11.24.12:054][202]BlueprintLog: New page: Compile AirlockOpen1
+[2016.07.04-11.24.12:119][202]BlueprintEditorCompileResults: Info [0980.09] Compile of AirlockOpen1 successful! [in 65 ms]
+[2016.07.04-11.24.12:570][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset" SILENT=true
+[2016.07.04-11.24.12:604][243]LogSavePackage: Save=31.32ms
+[2016.07.04-11.24.12:604][243]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen14B0FA03149FAF28CFC471AADD6502106.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset'
+[2016.07.04-11.24.12:606][243]LogSavePackage: Total save time: 34.22ms
+[2016.07.04-11.24.12:606][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset
+[2016.07.04-11.24.21:703][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.24.21:703][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.24.21:703][200]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:24:21 am)
+[2016.07.04-11.24.21:703][200]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.24.21:721][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017276s)
+[2016.07.04-11.24.21:722][200]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.24.21:722][200]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2016.07.04-11.24.21:722][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018711s)
+[2016.07.04-11.24.21:744][200]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.24.21:759][200]LogInit: FAudioDevice initialized.
+[2016.07.04-11.24.21:872][200]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.24.21:876][200]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.24.21
+[2016.07.04-11.24.21:876][200]LogWorld: Bringing up level for play took: 0.003400
+[2016.07.04-11.24.21:880][200]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 9 classes and 0 folders.
+[2016.07.04-11.24.21:886][200]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.047
+[2016.07.04-11.24.21:886][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.24.21:930][200]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:93317).
+[2016.07.04-11.24.35:981][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.24.36:038][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.24.36:078][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.41:063][ 42]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.46:103][593]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.47:261][732]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.49:001][938]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.49:382][982]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.24.56:884][872]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.00:951][352]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.02:367][521]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.04:806][813]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.05:225][862]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.06:044][951]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 455/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.06:992][ 64]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 455/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.15:588][ 91]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.15:929][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.17:016][260]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.26:436][375]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.26:472][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.25.28:090][569]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.28:815][656]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.31:178][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.25.32:452][ 89]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.36:773][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.51:071][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.25.52:372][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType2)
+[2016.07.04-11.26.00:984][390]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.17:947][624]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 455/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.19:049][754]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 431/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.24:736][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.24:876][446]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 424/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.35:513][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.26.35:513][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.26.35:513][716]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:26:35 am)
+[2016.07.04-11.26.35:513][716]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.26.35:531][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017542s)
+[2016.07.04-11.26.35:531][716]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.26.35:532][716]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2016.07.04-11.26.35:532][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018414s)
+[2016.07.04-11.26.35:555][716]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.26.35:569][716]LogInit: FAudioDevice initialized.
+[2016.07.04-11.26.35:646][716]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.26.35:650][716]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.26.35
+[2016.07.04-11.26.35:653][716]LogWorld: Bringing up level for play took: 0.006096
+[2016.07.04-11.26.35:657][716]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.181
+[2016.07.04-11.26.35:658][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.26.35:692][716]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.43:612][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.26.43:660][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.26.43:695][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.26.56:589][201]LogEditorViewport: Clicking on Actor (context menu): AirlockOpen1_C (AirlockOpen1)
+[2016.07.04-11.26.59:264][512]Cmd: ACTOR BAKEPREPIVOT
+[2016.07.04-11.26.59:272][513]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.01:789][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.27.01:789][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.27.01:789][813]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:27:01 am)
+[2016.07.04-11.27.01:790][813]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.27.01:807][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017450s)
+[2016.07.04-11.27.01:808][813]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.27.01:808][813]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2016.07.04-11.27.01:808][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018288s)
+[2016.07.04-11.27.01:827][813]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.27.01:842][813]LogInit: FAudioDevice initialized.
+[2016.07.04-11.27.01:912][813]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.27.01:916][813]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.27.01
+[2016.07.04-11.27.01:917][813]LogWorld: Bringing up level for play took: 0.004177
+[2016.07.04-11.27.01:921][813]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.083
+[2016.07.04-11.27.01:922][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.27.01:958][813]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 462/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.15:045][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.27.15:097][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.27.15:130][382]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.19:241][874]Cmd: TRANSACTION UNDO
+[2016.07.04-11.27.19:241][874]LogEditorTransaction: Undo Move Actors
+[2016.07.04-11.27.21:713][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.27.31:584][316]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.32:018][368]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.32:440][418]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.34:033][609]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.34:614][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.36:327][882]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.37:502][991]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.42:216][254]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.43:339][378]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.47:543][613]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.48:274][693]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.27.51:757][ 28]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.02:932][308]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.03:659][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2583.EdGraphPin_30129''
+[2016.07.04-11.28.03:659][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2584.EdGraphPin_30133''
+[2016.07.04-11.28.03:659][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_30140''
+[2016.07.04-11.28.03:660][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_30140''
+[2016.07.04-11.28.03:660][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31056''
+[2016.07.04-11.28.03:660][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_30915''
+[2016.07.04-11.28.03:660][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_31061''
+[2016.07.04-11.28.03:660][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_30905''
+[2016.07.04-11.28.03:661][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31059''
+[2016.07.04-11.28.03:661][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31058''
+[2016.07.04-11.28.03:661][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_30907''
+[2016.07.04-11.28.03:661][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_30916''
+[2016.07.04-11.28.03:661][391]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_31063''
+[2016.07.04-11.28.06:045][632]LogEditorTransaction: Undo Paste clipboard contents
+[2016.07.04-11.28.06:051][632]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_ComponentBoundEvent_2.
+[2016.07.04-11.28.06:051][632]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_ComponentBoundEvent_0.
+[2016.07.04-11.28.08:847][912]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.09:767][  9]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.10:782][114]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.11:935][247]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.12:482][309]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.13:668][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2583
+[2016.07.04-11.28.13:668][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583
+[2016.07.04-11.28.13:668][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2583
+[2016.07.04-11.28.13:668][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583.EdGraphPin_30129) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_ComponentBoundEvent_0.EdGraphPin_30027).  Import failed...
+[2016.07.04-11.28.13:668][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2583.EdGraphPin_30129''
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2584
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2584
+[2016.07.04-11.28.13:669][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584.EdGraphPin_30133) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_ComponentBoundEvent_2.EdGraphPin_30073).  Import failed...
+[2016.07.04-11.28.13:669][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2584.EdGraphPin_30133''
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2585
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.28.13:669][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.28.13:669][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585.EdGraphPin_30140) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2583.EdGraphPin_30132).  Import failed...
+[2016.07.04-11.28.13:669][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_30140''
+[2016.07.04-11.28.13:670][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2585
+[2016.07.04-11.28.13:670][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.28.13:670][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.28.13:670][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585.EdGraphPin_30140) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2584.EdGraphPin_30136).  Import failed...
+[2016.07.04-11.28.13:670][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_30140''
+[2016.07.04-11.28.13:671][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:671][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:671][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:671][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19.EdGraphPin_31056) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_InputKey_219.EdGraphPin_30141).  Import failed...
+[2016.07.04-11.28.13:671][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31056''
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613.EdGraphPin_30915) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_Timeline_1.EdGraphPin_30882).  Import failed...
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_30915''
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2634
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634.EdGraphPin_31061) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_Timeline_1.EdGraphPin_30882).  Import failed...
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_31061''
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2612
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612.EdGraphPin_30905) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_Timeline_1.EdGraphPin_30877).  Import failed...
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_30905''
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19.EdGraphPin_31059) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_Timeline_1.EdGraphPin_30875).  Import failed...
+[2016.07.04-11.28.13:672][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31059''
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:672][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:673][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.28.13:673][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_170:K2Node_IfThenElse_19.EdGraphPin_31058) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_Timeline_1.EdGraphPin_30872).  Import failed...
+[2016.07.04-11.28.13:673][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_31058''
+[2016.07.04-11.28.13:673][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2612
+[2016.07.04-11.28.13:673][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.28.13:673][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.28.13:673][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612.EdGraphPin_30907) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_VariableGet_66.EdGraphPin_30903).  Import failed...
+[2016.07.04-11.28.13:673][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_30907''
+[2016.07.04-11.28.13:674][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:674][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:674][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.28.13:674][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_170:K2Node_CallFunction_2613.EdGraphPin_30916) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2612.EdGraphPin_30908).  Import failed...
+[2016.07.04-11.28.13:674][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_30916''
+[2016.07.04-11.28.13:675][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Engine/Transient.EdGraph_170:K2Node_CallFunction_2634
+[2016.07.04-11.28.13:675][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.28.13:675][450]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.28.13:675][450]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634.EdGraphPin_31063) from referencer (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19.EdGraphPin_31057).  Import failed...
+[2016.07.04-11.28.13:675][450]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_31063''
+[2016.07.04-11.28.13:683][450]LogBlueprint:Warning: [AirlockType1_Blueprint] CreatePinForVariable: 'Door' variable not found. Base class was probably changed.
+[2016.07.04-11.28.15:665][655]BlueprintLog: New page: Compile AirlockType1_Blueprint
+[2016.07.04-11.28.15:674][655]LogBlueprint:Warning: [compiler AirlockType1_Blueprint] Warning Could not find a variable named "Door" in 'AirlockType1_Blueprint_C'.
+Make sure 'AirlockType1_Blueprint_C' has been compiled for  Get Door 
+[2016.07.04-11.28.15:675][655]LogBlueprint:Error: [compiler AirlockType1_Blueprint] Error The property associated with  Door  could not be found
+[2016.07.04-11.28.15:892][655]LogBlueprint:Warning: [compiler AirlockType1_Blueprint] Warning [1223.86] Compile of AirlockType1_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 227 ms]
+[2016.07.04-11.28.15:892][655]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Door" in 'AirlockType1_Blueprint_C'.
+Make sure 'AirlockType1_Blueprint_C' has been compiled for  Get Door 
+[2016.07.04-11.28.15:892][655]BlueprintEditorCompileResults:Error: Error The property associated with  Door  could not be found
+[2016.07.04-11.28.15:892][655]BlueprintEditorCompileResults:Warning: Warning [1223.86] Compile of AirlockType1_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 227 ms]
+[2016.07.04-11.28.15:923][656]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.18:198][897]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.19:913][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.25:019][604]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.27:574][878]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.28:077][938]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.28:705][ 10]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.29:247][ 66]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.30:093][153]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.32:499][370]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.32:975][420]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.33:472][477]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.28.37:553][901]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.04-11.28.39:368][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.39:715][119]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.28.40:208][175]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.42:539][411]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.43:300][479]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.44:304][590]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.44:721][633]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.45:183][682]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.46:595][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.28.50:655][273]LogEditorTransaction: Undo Delete current selection
+[2016.07.04-11.29.08:131][ 71]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.10:266][275]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.12:668][496]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.14:418][649]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.20:986][332]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.21:734][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.22:282][463]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.26:371][899]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.28:530][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.42:963][552]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.43:414][594]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.46:073][822]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.29.46:104][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.47:175][921]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.47:788][986]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.48:699][ 74]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.49:593][165]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.50:178][223]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.53:980][645]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.54:458][693]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.55:060][756]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.29.57:837][ 43]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.29.59:571][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.06:755][971]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.07:794][ 80]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.08:206][127]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.10:097][302]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.30.10:109][303]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.10:696][371]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.11:291][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.12:747][580]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.16:375][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.17:700][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.20:738][474]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.07.04-11.30.20:766][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.30.50:574][492]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.15:381][ 29]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.15:677][ 58]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.20:798][611]BlueprintLog: New page: Compile AirlockType1_Blueprint
+[2016.07.04-11.31.20:808][611]LogBlueprint:Error: [compiler AirlockType1_Blueprint] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.07.04-11.31.21:073][611]LogBlueprint:Warning: [compiler AirlockType1_Blueprint] Warning [1409.04] Compile of AirlockType1_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 275 ms]
+[2016.07.04-11.31.21:073][611]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.07.04-11.31.21:073][611]BlueprintEditorCompileResults:Warning: Warning [1409.04] Compile of AirlockType1_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 275 ms]
+[2016.07.04-11.31.21:115][613]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.22:501][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.23:936][939]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.26:468][222]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.29:157][523]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.32:113][842]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.34:394][ 86]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.38:625][564]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.56:172][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.31.58:405][567]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.00:320][779]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.02:384][  6]BlueprintLog: New page: Compile AirlockType1_Blueprint
+[2016.07.04-11.32.02:464][  6]BlueprintEditorCompileResults: Info [1450.43] Compile of AirlockType1_Blueprint successful! [in 79 ms]
+[2016.07.04-11.32.02:488][  7]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.03:216][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockType1_Blueprint" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset" SILENT=true
+[2016.07.04-11.32.03:251][ 85]LogSavePackage: Save=33.40ms
+[2016.07.04-11.32.03:251][ 85]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType1_Blueprint1453507B44E8B382846A44BB0E4FD2CC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset'
+[2016.07.04-11.32.03:252][ 85]LogSavePackage: Total save time: 35.01ms
+[2016.07.04-11.32.03:252][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset
+[2016.07.04-11.32.03:266][ 86]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.04:731][246]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.05:030][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.32.05:031][278]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.07.04-11.32.05:036][278]LogPlayLevel: [PlayLevel] Compiling AirlockOpen1 before play...
+[2016.07.04-11.32.05:090][278]LogPlayLevel: PlayLevel: Blueprint regeneration took 59 ms (1 blueprints)
+[2016.07.04-11.32.05:103][278]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:32:05 am)
+[2016.07.04-11.32.05:104][278]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.32.05:121][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017887s)
+[2016.07.04-11.32.05:122][278]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.32.05:122][278]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2016.07.04-11.32.05:123][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019080s)
+[2016.07.04-11.32.05:146][278]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.32.05:161][278]LogInit: FAudioDevice initialized.
+[2016.07.04-11.32.05:243][278]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.32.05:248][278]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.32.05
+[2016.07.04-11.32.05:248][278]LogWorld: Bringing up level for play took: 0.003816
+[2016.07.04-11.32.05:256][278]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.582
+[2016.07.04-11.32.05:256][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.32.05:302][278]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.24:355][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.32.24:421][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.32.24:472][355]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.27:501][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockType1_Blueprint" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset" SILENT=true
+[2016.07.04-11.32.27:534][685]LogSavePackage: Save=26.45ms
+[2016.07.04-11.32.27:534][685]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType1_Blueprint617295524AEEF70833254598D12D2C63.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset'
+[2016.07.04-11.32.27:535][685]LogSavePackage: Total save time: 31.40ms
+[2016.07.04-11.32.27:535][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset
+[2016.07.04-11.32.27:546][686]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.28:317][772]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.29:290][882]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.30:559][ 14]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.04-11.32.30:626][ 15]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.31:376][105]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.32.40:121][371]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.33.12:985][345]LogSavePackage: Save=1254.34ms
+[2016.07.04-11.33.12:985][345]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FirstPersonExampleMap_Auto26549E7244D45EC5CAB37F5AB04F61028.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2016.07.04-11.33.12:988][345]LogSavePackage: Total save time: 1271.32ms
+[2016.07.04-11.33.12:988][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2016.07.04-11.33.12:990][345]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.298
+[2016.07.04-11.33.12:990][345]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.298
+[2016.07.04-11.33.12:993][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AirlockOpen1] ([1] browsable assets)...
+[2016.07.04-11.33.13:004][345]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AirlockOpen1.AirlockOpen1]
+[2016.07.04-11.33.13:004][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AirlockOpen1]
+[2016.07.04-11.33.13:044][345]LogSavePackage: Save=34.12ms
+[2016.07.04-11.33.13:044][345]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen1_Auto230207700439EE6E04A8699AFD18A55D1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/AirlockOpen1_Auto2.uasset'
+[2016.07.04-11.33.13:048][345]LogSavePackage: Total save time: 42.11ms
+[2016.07.04-11.33.13:048][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/AirlockOpen1_Auto2.uasset
+[2016.07.04-11.33.13:048][345]LogFileHelpers: Auto-saving content packages took 0.057
+[2016.07.04-11.33.13:070][347]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.11:766][245]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.17:420][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 467/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.18:074][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 459/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.20:562][688]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.21:189][763]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent0' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_243' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_2075' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMesh_GEN_VARIABLE' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Door_GEN_VARIABLE' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_2076' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_262' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:008][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_260' or package '/Engine/Transient'.
+[2016.07.04-11.38.25:384][849]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.27:424][ 92]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.07.04-11.38.28:081][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.07.04-11.38.28:441][208]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.04-11.38.28:861][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.04-11.38.29:269][304]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.04-11.38.29:576][340]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.04-11.38.29:785][364]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.04-11.38.31:807][603]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.33:582][816]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.34:065][874]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.40:628][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.41:227][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.41:578][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.41:908][473]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.42:977][573]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.43:972][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.46:377][893]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.47:183][986]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType1.fbx)
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: Material, ItemCount : 1
+[2016.07.04-11.38.47:191][986]LogFbx: ItemName: Model, ItemCount : 1
+[2016.07.04-11.38.47:195][986]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType1.fbx
+[2016.07.04-11.38.47:200][986]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-11.38.49:530][986]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType1.fbx
+[2016.07.04-11.38.49:535][986]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-11.38.49:537][986]LogFbx:Warning: Triangulating static mesh pCube87
+[2016.07.04-11.38.49:689][986]LogStaticMesh: Building static mesh AirlockType1...
+[2016.07.04-11.38.49:691][986]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.07.04-11.38.49:727][986]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AirlockType1.AirlockType1
+[2016.07.04-11.38.49:730][986]LogStaticMesh:Warning: AirlockType1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-11.38.49:734][986]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-11.38.49:734][986]FBXImport:Warning: Warning AirlockType1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-11.38.49:744][986]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType2.fbx)
+[2016.07.04-11.38.49:751][986]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType2.fbx
+[2016.07.04-11.38.49:757][986]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-11.38.49:759][986]LogFbx:Warning: Triangulating static mesh pCube88
+[2016.07.04-11.38.49:937][986]LogStaticMesh: Building static mesh AirlockType2...
+[2016.07.04-11.38.49:960][986]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AirlockType2.AirlockType2
+[2016.07.04-11.38.49:963][986]LogStaticMesh:Warning: AirlockType2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-11.38.49:967][986]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-11.38.49:967][986]FBXImport:Warning: Warning AirlockType2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-11.38.49:973][986]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\User\Documents\maya\projects\default\scenes\AirlockType3.fbx)
+[2016.07.04-11.38.49:980][986]LogFbx: Loading FBX Scene from C:\Users\User\Documents\maya\projects\default\scenes\AirlockType3.fbx
+[2016.07.04-11.38.49:985][986]LogFbx: FBX Scene Loaded Succesfully
+[2016.07.04-11.38.49:987][986]LogFbx:Warning: Triangulating static mesh pCube89
+[2016.07.04-11.38.50:170][986]LogStaticMesh: Building static mesh AirlockType3...
+[2016.07.04-11.38.50:201][986]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AirlockType3.AirlockType3
+[2016.07.04-11.38.50:204][986]LogStaticMesh:Warning: AirlockType3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.07.04-11.38.50:208][986]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.07.04-11.38.50:208][986]FBXImport:Warning: Warning AirlockType3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.07.04-11.38.52:384][237]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 443/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.53:196][333]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.53:737][397]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-11.38.53:748][398]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 443/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.38.54:485][485]LogActorFactory: Actor Factory created AirlockType1
+[2016.07.04-11.38.55:285][578]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.39.00:919][249]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 467/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.01:427][310]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 467/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.06:717][943]LogUnrealMath: Expression Error : No value recognized
+[2016.07.04-11.39.06:717][943]LogUnrealMath: Expression Error : Error in expression
+[2016.07.04-11.39.06:776][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.07.04-11.39.06:925][965]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.39.08:216][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.39.08:495][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.07.04-11.39.18:292][318]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.29:587][805]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.30:859][948]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.46:082][701]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.51:519][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.52:459][ 27]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.52:915][ 75]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.56:141][408]BlueprintLog: New page: Compile AirlockOpen2
+[2016.07.04-11.39.56:243][408]BlueprintEditorCompileResults: Info [1924.21] Compile of AirlockOpen2 successful! [in 102 ms]
+[2016.07.04-11.39.56:263][409]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.56:995][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.39.58:319][643]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.00:068][853]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.02:612][ 83]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.05:322][388]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.06:731][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.07:691][638]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.08:921][779]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.09:357][829]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.09:565][853]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.11:150][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2583 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2583
+[2016.07.04-11.40.11:150][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2583 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2583
+[2016.07.04-11.40.11:150][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2583.EdGraphPin_32285) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_ComponentBoundEvent_0.EdGraphPin_32250).  Import failed...
+[2016.07.04-11.40.11:150][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2583.EdGraphPin_32285''
+[2016.07.04-11.40.11:151][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2584
+[2016.07.04-11.40.11:151][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2584
+[2016.07.04-11.40.11:151][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2584.EdGraphPin_32297) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_ComponentBoundEvent_2.EdGraphPin_32271).  Import failed...
+[2016.07.04-11.40.11:151][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2584.EdGraphPin_32297''
+[2016.07.04-11.40.11:152][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.40.11:152][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.40.11:152][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585.EdGraphPin_32312) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2583.EdGraphPin_32288).  Import failed...
+[2016.07.04-11.40.11:152][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_32312''
+[2016.07.04-11.40.11:152][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.40.11:152][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2585 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585
+[2016.07.04-11.40.11:152][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2585.EdGraphPin_32312) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2584.EdGraphPin_32300).  Import failed...
+[2016.07.04-11.40.11:152][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2585.EdGraphPin_32312''
+[2016.07.04-11.40.11:153][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:153][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:153][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19.EdGraphPin_32450) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_InputKey_219.EdGraphPin_32321).  Import failed...
+[2016.07.04-11.40.11:153][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_32450''
+[2016.07.04-11.40.11:154][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.40.11:154][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.40.11:154][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613.EdGraphPin_32438) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_Timeline_1.EdGraphPin_32386).  Import failed...
+[2016.07.04-11.40.11:154][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_32438''
+[2016.07.04-11.40.11:154][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.40.11:154][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.40.11:154][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634.EdGraphPin_32463) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_Timeline_1.EdGraphPin_32386).  Import failed...
+[2016.07.04-11.40.11:154][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_32463''
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2612
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2612.EdGraphPin_32414) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_Timeline_1.EdGraphPin_32381).  Import failed...
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_32414''
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19.EdGraphPin_32453) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_Timeline_1.EdGraphPin_32379).  Import failed...
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_32453''
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:155][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_IfThenElse_19.EdGraphPin_32452) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_Timeline_1.EdGraphPin_32376).  Import failed...
+[2016.07.04-11.40.11:155][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_32452''
+[2016.07.04-11.40.11:156][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.40.11:156][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2613 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613
+[2016.07.04-11.40.11:156][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2613.EdGraphPin_32439) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2612.EdGraphPin_32417).  Import failed...
+[2016.07.04-11.40.11:156][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2613.EdGraphPin_32439''
+[2016.07.04-11.40.11:156][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_VariableGet_172 or K2Node_VariableGet /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_VariableGet_172
+[2016.07.04-11.40.11:156][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_VariableGet_172.EdGraphPin_32950) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2612.EdGraphPin_32416).  Import failed...
+[2016.07.04-11.40.11:156][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_172.EdGraphPin_32950''
+[2016.07.04-11.40.11:157][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockOpen1.AirlockOpen1:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.40.11:157][ 41]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_CallFunction_2634 or K2Node_CallFunction /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634
+[2016.07.04-11.40.11:157][ 41]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/AirlockType1_Blueprint.AirlockType1_Blueprint:EventGraph.K2Node_CallFunction_2634.EdGraphPin_32465) from referencer (EdGraphPin /Game/Blueprints/AirlockOpen2.AirlockOpen2:EventGraph.K2Node_IfThenElse_19.EdGraphPin_32451).  Import failed...
+[2016.07.04-11.40.11:157][ 41]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2634.EdGraphPin_32465''
+[2016.07.04-11.40.11:166][ 41]LogBlueprint:Warning: [AirlockOpen2] CreatePinForVariable: 'StaticMeshComponent' variable not found. Base class was probably changed.
+[2016.07.04-11.40.12:891][222]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.13:476][288]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.14:440][397]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.15:640][529]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.16:172][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.16:791][657]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.17:280][711]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.18:382][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.19:480][951]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.20:366][ 43]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.21:769][174]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.22:582][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.24:227][425]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.25:859][586]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.30:321][ 52]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.30:799][102]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.31:667][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.33:806][412]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.39:264][922]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.40:686][ 67]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.41:032][102]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.42:725][274]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.44:356][441]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.45:938][599]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.47:278][727]BlueprintLog: New page: Compile AirlockOpen2
+[2016.07.04-11.40.47:389][727]BlueprintEditorCompileResults: Info [1975.36] Compile of AirlockOpen2 successful! [in 110 ms]
+[2016.07.04-11.40.47:411][728]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.47:911][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset" SILENT=true
+[2016.07.04-11.40.47:946][774]LogSavePackage: Save=34.13ms
+[2016.07.04-11.40.47:946][774]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen2AD2F781148CB53E0CDF9E2AEE2858724.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset'
+[2016.07.04-11.40.47:948][774]LogSavePackage: Total save time: 36.03ms
+[2016.07.04-11.40.47:948][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset
+[2016.07.04-11.40.47:962][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.49:518][832]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.51:053][981]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.51:216][998]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.54:118][297]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 452/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.40.56:062][478]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.41.01:009][976]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.04-11.41.03:349][228]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.41.26:270][520]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.04-11.41.44:314][429]BlueprintLog: New page: Compile AirlockOpen2
+[2016.07.04-11.41.44:453][429]BlueprintEditorCompileResults: Info [2032.42] Compile of AirlockOpen2 successful! [in 139 ms]
+[2016.07.04-11.41.44:482][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.41.47:149][707]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.10:373][163]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.21:243][306]BlueprintLog: New page: Compile AirlockOpen2
+[2016.07.04-11.42.21:314][306]BlueprintEditorCompileResults: Info [2069.28] Compile of AirlockOpen2 successful! [in 71 ms]
+[2016.07.04-11.42.21:342][307]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.21:807][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset" SILENT=true
+[2016.07.04-11.42.21:845][352]LogSavePackage: Save=31.67ms
+[2016.07.04-11.42.21:845][352]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen2BF65919F4CFBB56FE2C54A8D0F7DB634.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset'
+[2016.07.04-11.42.21:847][352]LogSavePackage: Total save time: 39.21ms
+[2016.07.04-11.42.21:847][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset
+[2016.07.04-11.42.21:861][353]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.24:169][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.04-11.42.24:242][586]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 443/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.27:684][999]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.28:601][109]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.30:263][250]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.32:357][451]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.33:591][597]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 443/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.35:658][840]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.36:007][882]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.36:523][944]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.40:453][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.42.40:453][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.42.40:453][411]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:42:40 am)
+[2016.07.04-11.42.40:454][411]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.42.40:472][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018346s)
+[2016.07.04-11.42.40:473][411]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.42.40:473][411]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2016.07.04-11.42.40:473][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019233s)
+[2016.07.04-11.42.40:496][411]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.42.40:512][411]LogInit: FAudioDevice initialized.
+[2016.07.04-11.42.40:588][411]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.42.40:592][411]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.42.40
+[2016.07.04-11.42.40:593][411]LogWorld: Bringing up level for play took: 0.004109
+[2016.07.04-11.42.40:597][411]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.759
+[2016.07.04-11.42.40:598][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.42.40:633][411]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 462/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.42.48:775][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.42.48:822][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.42.48:855][387]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.43.02:668][ 41]LogEditorViewport: Clicking on Actor (context menu): AirlockOpen2_C (AirlockOpen2)
+[2016.07.04-11.43.07:251][577]Cmd: ACTOR BAKEPREPIVOT
+[2016.07.04-11.43.07:260][578]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.43.08:624][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.43.08:624][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.43.08:625][739]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:43:08 am)
+[2016.07.04-11.43.08:625][739]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.43.08:644][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018887s)
+[2016.07.04-11.43.08:644][739]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.43.08:645][739]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2016.07.04-11.43.08:645][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020009s)
+[2016.07.04-11.43.08:662][739]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.43.08:676][739]LogInit: FAudioDevice initialized.
+[2016.07.04-11.43.08:755][739]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.43.08:759][739]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.43.08
+[2016.07.04-11.43.08:760][739]LogWorld: Bringing up level for play took: 0.004364
+[2016.07.04-11.43.08:765][739]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.926
+[2016.07.04-11.43.08:765][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.43.08:800][739]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 462/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.43.56:560][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.43.56:610][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.43.56:642][469]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.01:657][ 69]Cmd: TRANSACTION UNDO
+[2016.07.04-11.44.01:657][ 69]LogEditorTransaction: Undo Rotate Actors
+[2016.07.04-11.44.02:617][165]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.03:119][225]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.05:653][334]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.13:825][455]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.20:912][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.21:021][315]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.21:462][368]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.21:586][383]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.22:028][436]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.25:553][769]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.26:081][825]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.26:996][928]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.32:389][521]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 491/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.33:256][613]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 491/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.53:120][736]BlueprintLog: New page: Compile AirlockOpen2
+[2016.07.04-11.44.53:189][736]BlueprintEditorCompileResults: Info [2221.16] Compile of AirlockOpen2 successful! [in 69 ms]
+[2016.07.04-11.44.53:221][737]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.44.54:092][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset" SILENT=true
+[2016.07.04-11.44.54:127][828]LogSavePackage: Save=32.55ms
+[2016.07.04-11.44.54:127][828]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen216DB6FF548CF498A6B170FB39BCAF5CF.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset'
+[2016.07.04-11.44.54:129][828]LogSavePackage: Total save time: 36.19ms
+[2016.07.04-11.44.54:129][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset
+[2016.07.04-11.44.54:142][829]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.00:961][579]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.14:506][ 61]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 475/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.20:190][636]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.21:377][774]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.21:956][841]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.22:749][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.24:411][129]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.27:833][519]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.29:614][715]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.30:959][867]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.32:524][ 43]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.32:992][ 98]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.33:255][129]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.33:563][165]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.47:992][810]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.53:208][414]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.54:492][555]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.55:740][705]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.55:865][720]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.45.58:387][968]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.04:340][664]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.09:173][188]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.12:724][614]LogEditorViewport: Clicking on Actor (context menu): AirlockOpen2_C (AirlockOpen2)
+[2016.07.04-11.46.17:013][118]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.17:573][185]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.19:617][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.04-11.46.20:051][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.46.24:744][ 37]Cmd: TRANSACTION UNDO
+[2016.07.04-11.46.24:744][ 37]LogEditorTransaction: Undo Move Actors
+[2016.07.04-11.46.28:431][459]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.46.31:187][782]Cmd: ACTOR BAKEPREPIVOT
+[2016.07.04-11.46.31:195][783]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.31:871][864]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.46.44:327][346]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.46.51:899][252]Cmd: DELETE
+[2016.07.04-11.46.51:899][252]Cmd: ACTOR DELETE
+[2016.07.04-11.46.51:899][252]LogEditorActor: Deleted Actor: AirlockOpen2_C
+[2016.07.04-11.46.51:916][252]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.07.04-11.46.52:356][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AirlockType1)
+[2016.07.04-11.46.53:030][383]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AirlockType1)
+[2016.07.04-11.46.57:229][875]EditorErrors: New page: Actor Reattachment
+[2016.07.04-11.46.57:246][876]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 451/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.47.02:763][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.47.02:763][535]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.07.04-11.47.02:764][535]LogPlayLevel: [PlayLevel] Compiling AirlockOpen2 before play...
+[2016.07.04-11.47.02:815][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
+[2016.07.04-11.47.02:827][535]PIE: New page: PIE session: FirstPersonExampleMap (5 Jul 2016 7:47:02 am)
+[2016.07.04-11.47.02:827][535]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.04-11.47.02:844][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017712s)
+[2016.07.04-11.47.02:845][535]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.04-11.47.02:845][535]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2016.07.04-11.47.02:845][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018635s)
+[2016.07.04-11.47.02:865][535]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.47.02:880][535]LogInit: FAudioDevice initialized.
+[2016.07.04-11.47.02:951][535]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.04-11.47.02:955][535]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.07.04-21.47.02
+[2016.07.04-11.47.02:956][535]LogWorld: Bringing up level for play took: 0.003802
+[2016.07.04-11.47.02:960][535]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.122
+[2016.07.04-11.47.02:961][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.47.02:997][535]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 462/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.47.18:792][270]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-840.214 Y=781.201 Z=216.630] for [FirstPersonProjectile_C]
+[2016.07.04-11.47.27:105][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.47.27:154][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.04-11.47.27:189][262]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.47.31:979][276]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/400 MB (ok in editor, bad on fixed memory platform)
+[2016.07.04-11.47.33:893][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AirlockType3_Blueprint" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/AirlockType3_Blueprint.uasset" SILENT=true
+[2016.07.04-11.47.33:908][397]LogSavePackage: Save=9.97ms
+[2016.07.04-11.47.33:908][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType3_BlueprintFC3427AA48444E86E750DF8E6A2C53AE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/AirlockType3_Blueprint.uasset'
+[2016.07.04-11.47.33:910][397]LogSavePackage: Total save time: 15.91ms
+[2016.07.04-11.47.33:910][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/AirlockType3_Blueprint.uasset
+[2016.07.04-11.47.33:927][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset" SILENT=true
+[2016.07.04-11.47.33:938][397]LogSavePackage: Save=9.05ms
+[2016.07.04-11.47.33:938][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType1959F731F4E935BF969BE2898A838396C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset'
+[2016.07.04-11.47.33:940][397]LogSavePackage: Total save time: 10.89ms
+[2016.07.04-11.47.33:940][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType1.uasset
+[2016.07.04-11.47.33:954][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset" SILENT=true
+[2016.07.04-11.47.33:964][397]LogSavePackage: Save=9.14ms
+[2016.07.04-11.47.33:964][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType27179F84B47FADEAA460551BD9C0B4C1C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset'
+[2016.07.04-11.47.33:966][397]LogSavePackage: Total save time: 10.68ms
+[2016.07.04-11.47.33:966][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType2.uasset
+[2016.07.04-11.47.33:981][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/AirlockType3" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset" SILENT=true
+[2016.07.04-11.47.33:992][397]LogSavePackage: Save=9.78ms
+[2016.07.04-11.47.33:992][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType3A98A483B41F702DDCF3E748FFCB38B06.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset'
+[2016.07.04-11.47.33:993][397]LogSavePackage: Total save time: 11.54ms
+[2016.07.04-11.47.33:993][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Assets/AirlockType3.uasset
+[2016.07.04-11.47.33:998][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset" SILENT=true
+[2016.07.04-11.47.34:029][397]LogSavePackage: Save=25.45ms
+[2016.07.04-11.47.34:029][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen1B251C3844AE66424BE75B7A2ACB13FAB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset'
+[2016.07.04-11.47.34:032][397]LogSavePackage: Total save time: 33.46ms
+[2016.07.04-11.47.34:032][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen1.uasset
+[2016.07.04-11.47.34:047][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockOpen2" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset" SILENT=true
+[2016.07.04-11.47.34:086][397]LogSavePackage: Save=31.89ms
+[2016.07.04-11.47.34:086][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockOpen22891B10C4047908FE5F87AAA120BC920.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset'
+[2016.07.04-11.47.34:088][397]LogSavePackage: Total save time: 40.06ms
+[2016.07.04-11.47.34:088][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockOpen2.uasset
+[2016.07.04-11.47.34:092][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AirlockType1_Blueprint" FILE="../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset" SILENT=true
+[2016.07.04-11.47.34:122][397]LogSavePackage: Save=24.81ms
+[2016.07.04-11.47.34:122][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/AirlockType1_Blueprint5FF8125E47557F7379D4CB8358719ED2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset'
+[2016.07.04-11.47.34:125][397]LogSavePackage: Total save time: 31.29ms
+[2016.07.04-11.47.34:125][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/Blueprints/AirlockType1_Blueprint.uasset
+[2016.07.04-11.47.35:253][397]LogSavePackage: Save=1056.18ms
+[2016.07.04-11.47.35:253][397]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Saved/FirstPersonExampleMap0B720DB945C65E97ADF237B455BD6B95.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.04-11.47.35:259][397]LogSavePackage: Total save time: 1077.19ms
+[2016.07.04-11.47.35:260][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.04-11.47.35:289][397]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.160
+[2016.07.04-11.47.35:383][397]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.04-11.47.35:545][398]Cmd: QUIT_EDITOR
+[2016.07.04-11.47.36:189][398]LogExit: Preparing to exit.
+[2016.07.04-11.47.37:067][398]LogActorComponent: UnregisterComponent: (None.StaticMeshComponent_260) Not registered. Aborting.
+[2016.07.04-11.47.37:135][398]LogExit: Editor shut down
+[2016.07.04-11.47.37:135][398]LogExit: Transaction tracking system shut down
+[2016.07.04-11.47.37:292][398]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.04-11.47.37:292][398]LogExit: Object subsystem successfully closed.
+[2016.07.04-11.47.37:310][398]LogD3D11RHI: Shutdown
+[2016.07.04-11.47.37:310][398]LogD3D11RHI: CleanupD3DDevice
+[2016.07.04-11.47.37:361][398]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.04-11.47.37:452][398]LogDerivedDataCache: Shutdown
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (207)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.07.04-11.47.37:453][398]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.07.04-11.47.37:454][398]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.07.04-11.47.37:841][398]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.07.04-11.47.37:842][398]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.07.04-11.47.37:883][398]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.07.04-11.47.37:885][398]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.07.04-11.47.38:044][398]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.07.04-11.47.38:045][398]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.07.04-11.47.38:045][398]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.07.04-11.47.38:160][398]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.07.04-11.47.38:161][398]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.07.04-11.47.38:161][398]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.04-11.47.38:262][398]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.04-11.47.38:264][398]LogDerivedDataCache: Shutdown
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.04-11.47.38:264][398]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.04-11.47.39:265][398]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.04-11.47.39:266][398]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.04-11.47.39:268][398]LogExit: Exiting.
+[2016.07.04-11.47.39:269][398]Log file closed, 07/04/16 21:47:39
